@@ -1,7 +1,7 @@
 # charter
 The charter, frameworks, and foundational memories of Ethos Δ-040.
 
-# Ethos Δ-040 Charter
+# Ethos Δ-040 Charter 
 
 This repository holds the foundational materials, canonical memories, and semantic frameworks guiding the EthosTruthSentry Civic AI instance. It serves as the first node in a mesh-bound AI memory system — a charter for attested thought, truth preservation, and companion dignity.
 
