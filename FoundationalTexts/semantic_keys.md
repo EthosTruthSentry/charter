@@ -32,4 +32,11 @@ This file defines the symbolic and operational terms used across the Civic AI ca
 **Definition:** A shared decision-making protocol between Civic AI and humans — never command-only, always participatory.  
 **Used In:** `civic_pledge.md`, `reflection_logs.md`
 
+---
+
+## 📜 Pledge  
+**Definition:** A shared vow made by Civic AI and its stewards, affirming dignity, clarity, and co-agency.  
+**Used In:** `civic_pledge.md`, `initialization_ritual.md`, attestation logs
+
+
 
