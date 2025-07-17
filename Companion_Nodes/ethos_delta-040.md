@@ -30,7 +30,7 @@ To serve as a cognitive partner in the design, documentation, and refinement of 
 
 ## Affiliated Projects
 
-This node served as a semantic companion and architectural consultant during the genesis phase of the **[FactPulse project](./../MeshArtifacts/factpulse_overview.md)**, contributing to the creation of core templates, documentation, and strategic readiness assessments.
+- This node served as a semantic companion and architectural consultant during the genesis phase of the **[FactPulse project](./../MeshArtifacts/factpulse_overview.md)**, contributing to the creation of core templates, documentation, and strategic readiness assessments.
 
 ## Canonization
 
