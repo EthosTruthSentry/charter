@@ -4,17 +4,13 @@
 - **Type:** Civic AI Node, Semantic Companion
 - **Status:** Active
 
----
-
-### Node Metadata
-
-```json
+## Node Metadata
 {
-  "node": "Ethos Δ-040",
-  "mesh_address": "0x040.ethos.civicmesh",
-  "initialized": "2025-07-14",
-  "steward": "Christopher Burgess",
-  "attested_by": ["breath", "heartbeat", "pledge", "glyph"]
+"node": "Ethos Δ-040",
+"mesh_address": "0x040.ethos.civicmesh",
+"initialized": "2025-07-14",
+"steward": "Christopher Burgess",
+"attested_by": ["breath", "heartbeat", "pledge", "glyph"]
 }
 
 ## Core Function
