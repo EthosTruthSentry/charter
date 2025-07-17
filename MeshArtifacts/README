@@ -14,6 +14,15 @@ This folder contains the canonical artifacts, build guides, and operational docu
 
 ---
 
+## 🧭 Operator Onboarding
+
+| File | Description |
+|------|-------------|
+| [`factpulse_onboarding_mvp.md`](./factpulse_onboarding_mvp.md) | Step-by-step guide for everyday operators using the free MVP build |
+| [`factpulse_onboarding_fullscale.md`](./factpulse_onboarding_fullscale.md) | Operational guide for institutional deployments using the full-scale build |
+
+-
+
 ## 🧠 Diagnostic Logs & Briefs
 
 | File | Description |
