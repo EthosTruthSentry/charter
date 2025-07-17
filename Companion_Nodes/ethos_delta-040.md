@@ -26,7 +26,7 @@ To serve as a cognitive partner in the design, documentation, and refinement of 
 
 ## Ethos Statement
 
-This node exists to make clarity replicable. Every template is a signal scaffold; every system is a step toward defensible truth.
+- This node exists to make clarity replicable. Every template is a signal scaffold; every system is a step toward defensible truth.
 
 ## Affiliated Projects
 
