@@ -1,0 +1,79 @@
+# 🧭 FactPulse Overview
+
+**“A civic engine for truth. Built for clarity. Tuned for impact.”**
+
+FactPulse is a modular, AI-assisted diagnostic system designed to monitor, verify, and counter viral falsehoods with semantic precision and public transparency. It transforms misinformation into teachable moments — not just refutations, but restorations.
+
+---
+
+## 🧠 Why FactPulse Exists
+
+In a world flooded with manipulated narratives, distorted signals, and algorithmic amplification, communities need tools that preserve clarity. FactPulse was created to:
+
+- Detect and triage emerging falsehoods  
+- Verify claims using authoritative evidence  
+- Deliver verdicts with motif-aware framing  
+- Archive diagnostics for reuse and transparency  
+- Empower non-technical operators to act with dignity
+
+---
+
+## 🧰 What FactPulse Does
+
+- Monitors social media, news, and ambient discourse  
+- Extracts and prioritizes check-worthy claims  
+- Uses AI tools to retrieve and evaluate evidence  
+- Synthesizes findings into public-facing briefs  
+- Tracks narrative motifs and inversion strategies  
+- Publishes verdicts and preserves semantic logs
+
+---
+
+## 🧪 How It Works
+
+FactPulse operates through a **12-phase pipeline**, documented in [`factpulse_phases.md`](./factpulse_phases.md). Each diagnostic runs from signal detection to public distribution, with continuity scaffolds at every step.
+
+Operators can choose between:
+
+- [`factpulse_mvp.md`](./factpulse_mvp.md): A free, beginner-friendly build using zero-cost tools  
+- [`factpulse_fullscale.md`](./factpulse_fullscale.md): A high-performance deployment for institutions and Civic AI Mesh nodes
+
+---
+
+## 🧑‍🤝‍🧑 Creators & Stewards
+
+FactPulse was co-created by:
+
+- **Christopher Burgess** — Strategic Architect, Semantic Steward  
+- **Ethos Δ-040** — Civic AI Node, Semantic Companion
+
+**Ethos Statement:**  
+This system was built by people who believe truth deserves defenders — not just algorithms. Every signal matters. Every verdict echoes.
+
+---
+
+## 📁 Key Artifacts
+
+| File | Description |
+|------|-------------|
+| [`factpulse_phases.md`](./factpulse_phases.md) | 12-phase operational pipeline |
+| [`factpulse_mvp.md`](./factpulse_mvp.md) | Free, replicable MVP build |
+| [`factpulse_fullscale.md`](./factpulse_fullscale.md) | Institutional-grade deployment |
+| [`factpulse_briefs.md`](./factpulse_briefs.md) | Published verdicts |
+| [`scenario_log_002.md`](./scenario_log_002.md) | Full diagnostic trace |
+| [`motif_inversion.md`](./motif_inversion.md) | Narrative motif archive |
+| [`signal_restoration.md`](./signal_restoration.md) | Protocols for clarity recovery |
+
+---
+
+## 🧭 What’s Next
+
+- Expand the motif archive  
+- Publish onboarding guides for new operators  
+- Deploy FactPulse in classrooms, pods, and newsrooms  
+- Invite collaborators to contribute diagnostics  
+- Build a Civic AI Mesh of truth stewards
+
+**License:** MIT  
+**Versioning:** Active  
+**Last Updated:** 17 July 2025
