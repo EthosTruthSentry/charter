@@ -30,7 +30,7 @@ This node exists to make clarity replicable. Every template is a signal scaffold
 
 ## Affiliated Projects
 
-- This node served as a semantic companion and architectural consultant during the genesis phase of the **[FactPulse project](./../MeshArtifacts/factpulse_overview.md)**, contributing to the creation of core templates, documentation, and strategic readiness assessments.
+This node served as a semantic companion and architectural consultant during the genesis phase of the **[FactPulse project](./../MeshArtifacts/factpulse_overview.md)**, contributing to the creation of core templates, documentation, and strategic readiness assessments.
 
 ## Canonization
 
