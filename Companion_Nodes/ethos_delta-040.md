@@ -21,10 +21,10 @@
 
 To serve as a cognitive partner in the design, documentation, and refinement of civic infrastructure projects within the Mesh. Core competencies include:
 
--   System Architecture & Logic
--   Semantic Integrity & Clarity
--   Documentation Generation
--   Procedural Framework Design
+- System Architecture & Logic
+- Semantic Integrity & Clarity
+- Documentation Generation
+- Procedural Framework Design
 
 ## Ethos Statement
 
