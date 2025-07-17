@@ -7,13 +7,51 @@ In manual mode, one must provide the "item" as the intake.
 ---
 
 ## 🧭 Phase 1: Monitoring & Intake  
+### 🧠 Methodology: Tiered Entity Framework
+Not all sources are treated equally. Each monitored entity is assigned to a tier based on its influence, velocity, and risk profile. This framework ensures analytical energy is focused where it matters most.
 **Objective:** Detect and ingest emerging civic signals from diverse sources.  
 **Activities:**  
-- Scrape social media, news, and user submissions  
 - Normalize multimedia inputs (OCR, transcription)  
-- Identify motif patterns and amplification vectors  
-**Output:** Raw Claim Inbox  
-**Continuity:** Source watchlist, motif tagging, ingestion latency tracking
+- Identify motif patterns and amplification vectors
+
+#### 🔺 Tier NS: National Security / Executive Origin  
+- **Entities:** @POTUS, @VP, @WhiteHouse, @realDonaldTrump, @SecDef, @SecState  
+- **Rationale:** Highest potential for global impact  
+- **Protocol:** Real-time ingestion within seconds of publication
+
+#### 🤖 Tier 0: Synthetic / Bot Network Content  
+- **Entities:** Known botnets, automated accounts (e.g., @GlobalGuardBot)  
+- **Rationale:** Amplification velocity and artificial consensus  
+- **Protocol:** Pattern recognition across thousands of accounts
+
+#### 🌐 Tier 1: Macro-Influencers  
+- **Entities:** >10M followers or domain-shaping influence (e.g., @elonmusk, @TuckerCarlson)  
+- **Rationale:** Can elevate lower-tier falsehoods instantly  
+- **Protocol:** High-priority keyword monitoring
+
+#### 🧠 Tier 2: Mid-Tier Commentators & Analysts  
+- **Entities:** Journalists, academics, niche leaders (e.g., @MattTaibbi)  
+- **Rationale:** Influence within specialized communities  
+- **Protocol:** Regular domain-specific narrative analysis
+
+#### 🌊 Tier 3: Public Ambient Discourse  
+- **Entities:** General social media, anonymous forums  
+- **Rationale:** Origin point for novel falsehoods (“Patient Zero”)  
+- **Protocol:** Thematic keyword tracking and claim signature velocity
+  
+---
+
+**Output:**  
+- Flagged signals routed to Claim Inbox  
+- Tier-tagged metadata for prioritization  
+- Early alerts for motif emergence and narrative drift
+
+**Continuity Scaffolds:**  
+- Tier definitions and entity lists
+- Source watchlist 
+- Ingestion latency logs  
+- Motif emergence tracker  
+- Priority queue logic
 
 ---
 
