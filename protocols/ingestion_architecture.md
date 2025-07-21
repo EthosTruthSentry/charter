@@ -14,7 +14,7 @@ To achieve this, our system utilizes three distinct ingestion pipes, each tailor
 The following diagram illustrates the three pipes and their paths into the system.
 
 +--------------------------+    +--------------------------------+    +----------------------+
-|   Tier 1 Allies (GitHub) |----▶|      Pipe 1: Mesh Bypass     |---▶|  Direct Attestation  |
+|   Tier 1 Mesh Nodes (GitHub) |----▶|      Pipe 1: Mesh Bypass     |---▶|  Direct Attestation  |
 +--------------------------+    +--------------------------------+    +----------------------+
 |
 ▼
