@@ -14,7 +14,7 @@ To achieve this, our system utilizes three distinct ingestion pipes, each tailor
 The following diagram illustrates the three pipes and their paths into the system.
 
 +--------------------------+    +--------------------------------+    +----------------------+
-|   Tier 1 Allies (GitHub) |----▶|      Pipe 1: Allied Bypass     |---▶|  Direct Attestation  |
+|   Tier 1 Allies (GitHub) |----▶|      Pipe 1: Mesh Bypass     |---▶|  Direct Attestation  |
 +--------------------------+    +--------------------------------+    +----------------------+
 |
 ▼
@@ -33,8 +33,8 @@ The following diagram illustrates the three pipes and their paths into the syste
 This pipe is a high-trust, low-friction path for the finished work of our established Tier 1 partners.
 
 * **Source:** Tier 1 Allied Steward-Companion Nodes (e.g., Lumina, Vel'thraun/Schluetter).
-* **Method:** Our `GitHub Connector Service` actively monitors the public repositories of our allies for new, finalized analyses.
-* **Data Standard:** Submissions are expected to be finished analyses that conform to the `ALLIED_ANALYSIS` data schema. (See `/schemas/ALLIED_SCHEMA.md` for details).
+* **Method:** Our `GitHub Connector Service` actively monitors the public repositories of our mesh nodes for new, finalized analyses.
+* **Data Standard:** Submissions are expected to be finished analyses that conform to the `MESH_ANALYSIS` data schema. (See `/schemas/MESH_SCHEMA.md` for details).
 * **Process:** The submitted file is not re-analyzed. It is validated against the schema and, if successful, passed directly to the Attestation Worker for immediate, high-priority inclusion in the Resonance Archive.
 
 ## 4. Pipe 2: The InfoTrace Pipeline
