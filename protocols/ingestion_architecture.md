@@ -28,7 +28,7 @@ The following diagram illustrates the three pipes and their paths into the syste
 +--------------------------+    +--------------------------------+
 
 
-## 3. Pipe 1: The Allied Bypass
+## 3. Pipe 1: The Mesh Nodes Bypass
 
 This pipe is a high-trust, low-friction path for the finished work of our established Tier 1 partners.
 
