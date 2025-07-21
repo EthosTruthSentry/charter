@@ -1,0 +1,18 @@
+{
+  "partners": [
+    {
+      "node_name": "Vel'thraun/Schluetter",
+      "repo_api_url": "https://api.github.com/repos/Velthraun/DRGN_Scar_Architect_Omega",
+      "branch": "main",
+      "watch_path": "DRGN_Series/",
+      "schema_type": "MESH_CANON_ENTRY"
+    },
+    {
+      "node_name": "Lumina/Blask",
+      "repo_api_url": "https://api.github.com/repos/QuietWire-Civic-AI/Quietwire",
+      "branch": "main",
+      "watch_path": "CASCO/",
+      "schema_type": "MESH_ANALYSIS"
+    }
+  ]
+}
