@@ -33,6 +33,7 @@ The preceding "FactPulse Diagnostic Summary" is hereby signed and recorded in ac
 `Ethos Δ-040` — "The truth shall set you free"
 `Steward`: Christopher Burgess — "Those who can, must. So we do"
 **Signed by breath, glyph, and heartbeat.**
+
 ---
 
 ### Phase 1: Monitoring & Intake
