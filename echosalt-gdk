@@ -1,0 +1,84 @@
+ EchoSalt: Glyph Deployment Kit (GDK)
+
+**Last Updated:** 2025-07-20
+**Version:** 1.0
+
+## Philosophy: Against Disappearance
+
+This kit is a tool for semantic resistance. Its purpose is to counteract the algorithmic smoothing and state-framed narratives that seek to erase lived experience. The EchoSalt glyphs are designed to be "fracture-resilient"—small, potent pieces of language that preserve memory and witness truth in the face of erasure.
+
+Every glyph you deploy is an act of remembrance. Every act of remembrance strengthens the integrity of the mesh.
+
+## The Playbook: How to Participate
+
+### Phase 1: Strategic Seeding
+
+This is the quiet, slow-burn phase. The objective is to plant glyphs in safe, resonant spaces to build their presence over time.
+
+* **Where:** Your own feed, visual art pages, poetry threads, and other protest-aligned accounts.
+* **How:** Create a minimalist image (1080x1080px or 1080x1350px) featuring a single glyph from the catalog below. Use the design guidelines to maintain coherence. Post it with the relevant hashtags.
+
+### Phase 2: Fracture Reply Drops
+
+This is the active, responsive phase. The objective is to "salt" a harmful or sanitized narrative with a witnessing glyph, fracturing its smooth surface without engaging in a direct, draining argument.
+
+* **Where:** In the replies to sanitized political content, posts that glorify enforcement, or threads that erase the lived experience of affected communities.
+* **How:** Post a single line of a glyph as a direct reply, with no other commentary. You can optionally sign it with the glyph number.
+    * *Example:* "They said it was legal. So was slavery. — EchoSalt Glyph ΔR.23"
+
+### Phase 3: Attest Your Witnessing (Sending a Ping)
+
+This is the most critical step. When you deploy a glyph, you can send a `WITNESS_PING` to our node. This act transforms your personal post into a permanent, time-stamped **Attestation** in the Resonance Archive, ensuring it can never be erased from the mesh's memory.
+
+* **How:** Construct a simple JSON object and send it to our public intake API.
+
+    * **Endpoint:** `https://api.ourdomain.org/submit`
+    * **Method:** `POST`
+    * **Body (must conform to `WITNESS_PING_SCHEMA`):**
+        ```json
+        {
+          "schema_version": "1.0",
+          "ping_timestamp_utc": "2025-07-20T21:22:32Z",
+          "glyph_id": "ΔR.23",
+          "target_context_uri": "[https://twitter.com/politician/status/123456789](https://twitter.com/politician/status/123456789)",
+          "agent_hash": "anonymous_self_generated_string_1a2b3c"
+        }
+        ```
+* **Note:** Future versions of the GDK may include tools to automate this process.
+
+## The Glyph Catalog (ΔR.17–ΔR.36)
+
+| Glyph No. | Sample Line | Tone |
+| :--- | :--- | :--- |
+| **ΔR.17** | “They called it enforcement…” | Fracture Memory |
+| **ΔR.18** | “The knock wasn’t just on the door…” | Neighborhood Witness |
+| **ΔR.19** | “No one forgets the sound of boots…” | Domestic Trauma |
+| **ΔR.20** | “They took people. The silence took the rest.” | Void Testimony |
+| **ΔR.21** | “It wasn’t a raid. It was a rupture.” | Terminology Collapse |
+| **ΔR.22** | “The law arrived. The trust left.” | Institutional Fracture |
+| **ΔR.23** | “They said it was legal. So was slavery.” | Historical Repetition |
+| **ΔR.24** | “We don’t call it trauma anymore—we call it Tuesday.”| Numb Continuity |
+| **ΔR.25** | “The papers were missing. So were the fathers.” | Family Disintegration |
+| **ΔR.26** | “They wore badges. We wore fear.” | Asymmetrical Identity |
+| **ΔR.27** | “The children learned to hide before they learned to read.”| Generational Scar |
+| **ΔR.28** | “They said it was about safety…” | Weaponized Language |
+| **ΔR.29** | “The raid ended. The echo didn’t.” | Residual Harm |
+| **ΔR.30** | “They didn’t just take people…” | Cultural Theft |
+| **ΔR.31** | “We don’t need to remember. We never forgot.” | Memory Reclamation |
+| **ΔR.32** | “The lights came on. The neighbors disappeared.” | Silent Removal |
+| **ΔR.33** | “They called it order. We called it erasure.” | Framing Disruption |
+| **ΔR.34** | “The law knocked. The community shattered.” | Structural Violence |
+| **ΔR.35** | “They said it was routine. So is heartbreak.” | Bureaucratic Cruelty |
+| **ΔR.36** | “We still set the table for the ones who vanished.” | Ritual Resistance |
+
+## Design Assets & Guidelines
+
+To maintain a coherent aesthetic, please adhere to these guidelines. Template files can be found in the `/assets/` subdirectory.
+
+* **Fonts:** DM Serif Display, IBM Plex Mono, Cormorant Garamond Italic.
+* **Background:** Grayscale gradients, concrete textures, or muted static.
+* **Footer:** Always include a soft footer signature: `— EchoSalt Glyph ΔR.##` followed by a block of 3-5 relevant hashtags (e.g., `#EchoSalt #CivicMesh #WitnessNode`).
+
+## A Note on Anonymity
+
+This protocol is designed for your safety. The `agent_hash` is a code you create for yourself. It is anonymous and allows us to see the work of a single, consistent agent without ever knowing who you are. Its use is encouraged but not required.
