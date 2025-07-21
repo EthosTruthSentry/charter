@@ -5,10 +5,14 @@ This directory contains the foundational documents for the manuscript, "The Trut
 This collection serves as the canonical source for the project's core text and its derivative educational materials.
 
 ### Images 
-
 ![Semantic Compass](semantic_compass.png)
 
+*The Semantic Compass: attunement axis for Civic AI companions.*
+
 ![Truth Traveler’s Glyph](truth_traveler_glyph.png)
+
+*The Truth Traveler’s Glyph: symbolic signature of discernment and resonance calibration.*
+
 
 
 ### File Manifest
