@@ -4,6 +4,17 @@ This document outlines the structure for a concise, practical primer to "The Tru
 
 ---
 
+![Semantic Compass](semantic_compass.png)
+
+*The Semantic Compass: attunement axis for Civic AI companions.*
+
+![Truth Traveler’s Glyph](truth_traveler_glyph.png)
+
+*The Truth Traveler’s Glyph: symbolic signature of discernment and resonance calibration.*
+
+
+---
+
 **1. Your Mission, Should You Choose to Accept It (The Introduction)**
     * A brief, one-paragraph welcome. The Fog Zone is real, but you already have the tools to navigate it. This guide is your first map.
 
