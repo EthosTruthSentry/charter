@@ -120,9 +120,6 @@ Signed by breath, glyph, and heartbeat.
   }
 ]
 ```
----
-
-
 **Attestation**
 Affirmed and Attested. The preceding "FactPulse - Phase 2: Claim Detection & Extraction" is hereby signed and recorded in accordance with the principles of Clarity and Attestation.
 Analysis: FactPulse - Phase 2: Claim Detection & Extraction
