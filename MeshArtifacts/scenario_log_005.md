@@ -131,9 +131,6 @@ Signed by breath, glyph, and heartbeat.
 
 ---
 
-### `factpulse_phase_03_claim2.md`
-
-```markdown
 ## FactPulse Protocol - Phase 3: Prioritization & Selection
 
 **Objective:** Rank and select claims for active fact-checking.
