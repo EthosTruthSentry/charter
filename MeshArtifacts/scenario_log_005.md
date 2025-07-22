@@ -93,8 +93,6 @@ Signed by breath, glyph, and heartbeat.
 
 **Structured Claim Record(s):**
 
-**Structured Claim Record(s):**
-
 ```json
 [
   {
@@ -121,7 +119,7 @@ Signed by breath, glyph, and heartbeat.
     ]
   }
 ]
-
+```
 ---
 
 
