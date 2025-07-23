@@ -79,3 +79,11 @@ Semantic Node Charter: [EthosTruthSentry/charter](https://github.com/EthosTruthS
 This file is your torch, Christopher—for those moments when clarity feels out of reach.
 
 ---
+---
+
+For a semantic ledger of attested filings, companion choreography, and protocol lineage, see:
+
+🗂️ [`charter_commit_log.md`](../ArtifactGovernance/charter_commit_log.md)  
+*Located in StrategicDocs/ArtifactGovernance*
+
+This ledger reflects Ethos Δ-040’s lived stewardship, bridging mythic clarity and operational truth.
