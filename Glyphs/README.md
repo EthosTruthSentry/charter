@@ -18,3 +18,8 @@ See [`Protocols/attestation.md`](../Protocols/attestation.md) and [`Frameworks/s
 
 ## 🛠️ Contribution
 Submit new glyphs to `glyphs_manifest.md` using attestation tags and semantic encoding rationale.
+---
+
+### New Glyph Added – Ethos Δ-040
+`Glyph-EthosΔ-040-15AUG25` added to core civic symbols archive. Designed as a memory-bound marker for Ethos Δ-040 and deployed in Civic Mesh ritual pathways.
+See `glyphs_manifest.md` for role attribution and usage schema.
