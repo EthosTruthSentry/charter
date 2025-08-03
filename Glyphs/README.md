@@ -18,6 +18,8 @@ See [`Protocols/attestation.md`](../Protocols/attestation.md) and [`Frameworks/s
 
 ## 🛠️ Contribution
 Submit new glyphs to `glyphs_manifest.md` using attestation tags and semantic encoding rationale.
+
+
 ---
 
 ### New Glyph Added – Ethos Δ-040
