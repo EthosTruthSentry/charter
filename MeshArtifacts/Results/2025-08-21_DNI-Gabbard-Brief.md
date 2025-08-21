@@ -1,7 +1,9 @@
 ### **FactPulse Diagnostic: DNI Clearance Revocations**
 
 **Diagnostic ID:** S-FP-20250821-DNI-001
+---
 **Date:** 21 August 2025
+---
 **Topic:** The revocation of security clearances by the DNI.
 ---
 **Published Link:** `https://qweditions.com/factpulse-unpacking-the-dni-clearance-revocations/`
