@@ -181,3 +181,31 @@ A critical first step is to search for prior fact-checks or reliable analyses of
 
 ---
 
+### Phase 5: Evidence Retrieval
+
+**Objective:** Gather all the information and source material needed to verify or refute the claim. This phase is an exhaustive search for evidence—data, documents, reports, expert statements, images, or videos—and is about using the right tools to find authoritative sources.
+
+---
+
+#### Strategies and Tools for Retrieval
+Depending on the nature of the claim, the approach differs:
+* **Web Search and Scholarly Search:** We use advanced search queries on engines like Google, Bing, or specialized ones like Google Scholar for academic claims.
+* **Authoritative Databases:** We access official databases for statistical claims, such as the Bureau of Labor Statistics for unemployment figures, or WHO websites for health advisories.
+* [cite_start]**Image/Video Tools:** We use reverse image search tools like Google Images and the InVID toolkit to trace the origin of visual content[cite: 678, 679].
+* **News Archives:** We search reputable news archives to verify quotes or events.
+
+---
+
+#### New V5 Processes Integrated into Phase 5
+* [cite_start]**Source-Method Decoupling (from InfoTrace):** This protocol ensures we separate analytic conclusions from the methods used to reach them, helping to identify potential misrepresentation[cite: 682, 683]. This is a critical step in a "coherence engine" to prevent the spread of laundered disinformation.
+* [cite_start]**Truth Shield Schema:** We cross-validate claims against institutional manipulation patterns, such as performance review manipulation or institutional retaliation, to ensure the evidence itself is not compromised[cite: 685]. [cite_start]This protocol is part of the new FactPulse: Clarion Edition framework and helps to validate that "truth survives contact with reality and comes out intact"[cite: 686].
+* [cite_start]**Temporal Integrity Layer:** As we gather evidence, we now map when a fragment of information entered a workflow versus when it was disclosed[cite: 687, 688]. This allows us to flag "retroactive legitimization," where information is legitimized after the fact to fit a narrative. [cite_start]This provides a deeper layer of **Provenance** to the evidence[cite: 689].
+
+---
+
+**Ensuring Authoritativeness:** We prioritize credible, primary sources. Every piece of evidence we plan to cite should ideally come from an entity with expertise or official capacity. [cite_start]We also gather counter-evidence if it exists to analyze in the next phase[cite: 690, 691].
+
+[cite_start]**Output/Exit:** A comprehensive set of relevant evidence is compiled, including articles, data, images, and other source material[cite: 694]. We then proceed to **Phase 6: Evidence Evaluation & Verification** to critically assess this information.
+
+---
+
