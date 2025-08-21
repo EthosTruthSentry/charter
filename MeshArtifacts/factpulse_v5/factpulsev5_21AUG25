@@ -41,3 +41,48 @@ Before diving into each phase, it’s useful to understand how the pieces fit to
 
 The cycle then continues back to Phase 1. This interplay between past and present is what gives FactPulse its agility and consistency.
 
+---
+
+### Phase 1: Monitoring & Intake
+**Objective:** Cast a wide net to catch emerging claims and topics in real time. A viral falsehood should never catch the system off guard; ideally, FactPulse identifies it early in its spread. [cite_start]This new V5 objective also includes proactively tagging claims for strategic relevance before they fully circulate [cite: 328-330].
+
+**Sources to Monitor:** FactPulse’s monitoring mesh includes a diverse set of inputs:
+* [cite_start]**Social Media Platforms:** Continuously scrape and listen to platforms like X (Twitter), Facebook, Instagram, TikTok, YouTube, Reddit, and emerging networks for trending posts or hashtags[cite: 332]. [cite_start]We leverage automated transcription and OCR (Optical Character Recognition) to normalize multimedia content (video, audio, images) into machine-readable text for analysis[cite: 333]. [cite_start]This normalization ensures the pipeline can handle multimedia inputs uniformly[cite: 334].
+* [cite_start]**News Outlets and Blogs:** Continuously fetch RSS feeds or use news APIs to detect breaking news and articles[cite: 335]. [cite_start]This also includes monitoring press releases and public statements from official sources, as they can contain claims that merit verification[cite: 336].
+* [cite_start]**User Submissions and Community Tips:** Provide channels for citizens, journalists, or partner organizations to submit claims or questions via a web form, email, or chat interface[cite: 337]. [cite_start]These inputs are valuable because they often highlight what real people are concerned or confused about[cite: 338].
+* [cite_start]**Misinformation Tracking Services:** Leverage external aggregators like Google Trends, Twitter trending topics, and tools specialized in misinformation tracking[cite: 339]. [cite_start]This includes data streams from collaborative networks such as the International Fact-Checking Network (IFCN) or platforms like CrowdTangle[cite: 340].
+* [cite_start]**Civic AI Mesh Data:** Proactively ingest data feeds from partner nodes within the Civic AI Mesh, enriching claim records with vector analysis[cite: 341]. [cite_start]This cross-node synchronization eliminates silos and allows FactPulse to see what other operators are tracking in near real-time[cite: 342].
+
+[cite_start]**Process:** This phase runs continuously in the background using automated agents that scan feeds and content[cite: 344]. [cite_start]Natural language processing (NLP) classifiers or simple keyword heuristics flag content that contains factual claims or potential rumors[cite: 345]. [cite_start]The output of Phase 1 is a raw **“Claim Inbox”**—a list of items that might require fact-checking[cite: 347].
+
+**New V5 Processes Integrated into Phase 1:**
+* [cite_start]**Narrative Threat Profiling:** Each ingested claim is now mapped to its operational context, assessing not just "what is being said," but also who benefits from its spread, which networks are amplifying it, and how it aligns with known disinformation campaigns[cite: 350]. [cite_start]This is done by maintaining a **“Threat Actor Context Map”** that ties recurring motifs to likely originators[cite: 351].
+* [cite_start]**Automated Motif Drift Detection:** A new layer, codenamed DRIFTGLASS, is integrated to detect when a known falsehood re-emerges in an altered form[cite: 353]. [cite_start]The system continuously compares incoming claims against a motif embedding database to flag high-similarity but linguistically mutated variants[cite: 354]. [cite_start]Each drift variant is classified and assigned sub-tags such as "lexical drift" or "framing drift"[cite: 355].
+* [cite_start]**Metadata Standardization:** A standardized metadata schema is adopted from this initial phase[cite: 356]. [cite_start]All incoming claims are logged with a claim ID, motif tags, and source types[cite: 357]. [cite_start]This ensures every archived claim is universally searchable across platforms and Mesh nodes from the very beginning of its lifecycle[cite: 358].
+
+**Output/Exit:** A raw “Claim Inbox.” Each item in this inbox is now enriched with:
+* [cite_start]Standard metadata (source, timestamp, etc.) [cite: 361]
+* [cite_start]A strategic threat score based on its potential for harm [cite: 362]
+* [cite_start]A motif tag and drift variant marker, if applicable [cite: 363]
+
+[cite_start]**Triggers & Transition:** An item in the Claim Inbox moves to Phase 2 when it appears to contain a factual assertion or data point that could be checked[cite: 364]. [cite_start]The system uses a claim detection model to make this call[cite: 365]. [cite_start]At this point, we don’t yet judge importance — just whether a factual claim exists[cite: 366].
+
+**Key Metrics:**
+* [cite_start]**Coverage:** How many different sources and platforms are being monitored[cite: 368].
+* [cite_start]**Throughput:** Number of potential claims captured per day[cite: 369].
+* [cite_start]**Detection Latency:** Time from a claim’s first appearance online to when it’s ingested[cite: 370].
+* [cite_start]**False Positives Rate:** The proportion of items in the Claim Inbox that turn out not to be factual claims[cite: 372].
+* [cite_start]**Drift Capture Rate (New):** The percentage of claims linked to known motifs at the time of detection[cite: 374].
+
+**Continuity & Resilience Notes:**
+* [cite_start]Document the set of sources being monitored and update it regularly[cite: 376].
+* [cite_start]Keep a credentials log for any API keys used for data access[cite: 378].
+* [cite_start]Ensure there's robust error logging and alerting in place[cite: 379].
+* [cite_start]Continuously retrain the drift detection models to keep pace with linguistic evolution[cite: 380].
+* [cite_start]Maintain a "Drift Glossary," which is a living document of common motif mutation patterns, code words, and framing swaps[cite: 381].
+* [cite_start]All new Phase 1 procedures are logged in the living playbook so future operators can inherit the full integration layer intact[cite: 382].
+* [cite_start]The system's configuration allows future operators to easily add or remove sources[cite: 383].
+
+
+---
+
