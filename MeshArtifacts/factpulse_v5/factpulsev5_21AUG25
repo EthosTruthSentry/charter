@@ -152,3 +152,32 @@ The cycle then continues back to Phase 1. This interplay between past and presen
 
 ---
 
+### Phase 4: Cross-Check & Preliminary Research
+
+[cite_start]**Objective:** Before diving into full research, FactPulse leverages existing knowledge to avoid reinventing the wheel [cite: 183-185]. This phase checks whether the claim has been addressed previously—either by FactPulse itself or by other fact-checkers or reputable sources—and gathers any readily available information. It sets the direction for deeper research by outlining what needs to be verified and identifies key questions that must be answered about the claim.
+
+---
+
+#### Reusing Existing Fact-Checks
+
+A critical first step is to search for prior fact-checks or reliable analyses of the claim.
+* [cite_start]**Internal Knowledge Base Search:** The system queries the FactPulse archives for the claim or related keywords [cite: 187-188]. Using semantic search (embeddings) helps to catch rephrased matches, not just exact text matches.
+* **External Fact-Check Repositories:** FactPulse uses tools like the Google Fact Check Explorer to search fact-check articles from many organizations worldwide. Many fact-checks are marked up with the ClaimReview schema, which enables easier discovery.
+* **General Web Search:** A quick web search of the claim or its key terms can often yield high-value information, such as a relevant news article or a scientific paper. Modern retrieval might use both keyword and neural search for robust results.
+
+---
+
+#### New V5 Processes Integrated into Phase 4
+
+* **InfoTrace Provenance Engine:** This phase now integrates with **InfoTrace**, which traces the origin of claims through channels like FOIA chains, whistleblower signals, and editorial revision logs. It assigns integrity scores based on transparency, dissent, and metadata fidelity, which helps to validate the architecture of the information, not just its content.
+* **Memory in Motion:** The **Clarion DriftMap** identifies motifs of distortion like `Narrative laundering` and `Analytic coercion`. When a claim is identified as a drift variant in Phase 1, this phase uses that tag to instantly retrieve prior evidence. This prevents treating a recurring pattern as if it’s happening for the first time. By linking the new variant ID to the parent motif record, prior evidence can be retrieved instantly to inform the research plan. [cite_start]This helps FactPulse fight the same battle over and over by making the learning persistent [cite: 200-201].
+* **Cross-Node Civic Mesh Synchronization:** The system now ingests findings from partner nodes within the Civic AI Mesh, allowing FactPulse to leverage their completed fact-checks to speed up its own verification process.
+
+---
+
+**Output/Exit:** If a claim is a repeat or a variant of a past one, this phase prepares a streamlined plan to review the prior analysis. [cite_start]If nothing solid is found, the system generates a research plan that starts from scratch [cite: 203-205]. This phase often produces a research to-do list.
+
+**Triggers & Transition:** With a plan and initial information in hand, the system proceeds to **Phase 5: Evidence Retrieval** to gather all the needed supporting material.
+
+---
+
