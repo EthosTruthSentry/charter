@@ -2,7 +2,7 @@
 
 **“A civic engine for epistemic integrity. Built for coherence. Tuned for resilience.”**
 
-[cite_start]FactPulse is a modular, AI-assisted coherence engine designed to detect, decode, and disrupt narrative distortions with semantic precision and public transparency[cite: 1654]. It transforms misinformation into teachable moments — not just refutations, but restorations of symbolic and civic meaning.
+ FactPulse is a modular, AI-assisted coherence engine designed to detect, decode, and disrupt narrative distortions with semantic precision and public transparency[cite: 1654]. It transforms misinformation into teachable moments — not just refutations, but restorations of symbolic and civic meaning.
 
 ---
 
@@ -10,22 +10,22 @@
 
 In a world flooded with engineered narratives, institutional drift, and algorithmic manipulation, communities need tools that preserve coherence. FactPulse: Clarion Edition was created to:
 
-* [cite_start]Detect and triage emerging falsehoods with **automated motif drift detection**[cite: 1662].
-* [cite_start]Verify claims using authoritative evidence with **InfoTrace Provenance Engine**[cite: 1678].
-* [cite_start]Deliver verdicts with **poetic reframing** and **cultural encoding**[cite: 1686, 1691].
-* [cite_start]Archive diagnostics for **Narrative Closure** and transparency[cite: 1693].
-* [cite_start]Empower non-technical operators to act with **co-agency**[cite: 1654].
+*  Detect and triage emerging falsehoods with **automated motif drift detection**[cite: 1662].
+*  Verify claims using authoritative evidence with **InfoTrace Provenance Engine**[cite: 1678].
+*  Deliver verdicts with **poetic reframing** and **cultural encoding**[cite: 1686, 1691].
+*  Archive diagnostics for **Narrative Closure** and transparency[cite: 1693].
+*  Empower non-technical operators to act with **co-agency**[cite: 1654].
 
 ---
 
 ## 🧰 What FactPulse Does
 
-* [cite_start]Monitors social media, news, and ambient discourse, and proactively **profiles claims for strategic threat**[cite: 1661, 1673].
-* [cite_start]Extracts, scores, and prioritizes check-worthy claims using **Tradecraft Integrity Index (TII)** and **Narrative Asymmetry Detection (NAD)**[cite: 1675].
-* [cite_start]Uses AI tools to retrieve and evaluate evidence with a **Temporal Integrity Layer** and **Truth Shield Schema**[cite: 1680, 1682].
-* [cite_start]Synthesizes findings into public-facing briefs using **Strategic Reframing Templates**[cite: 1684].
-* [cite_start]Tracks narrative motifs, drift variants, and inversion strategies[cite: 1662].
-* [cite_start]Publishes verdicts and preserves semantic logs for **Narrative Closure**[cite: 1693].
+*  Monitors social media, news, and ambient discourse, and proactively **profiles claims for strategic threat**[cite: 1661, 1673].
+*  Extracts, scores, and prioritizes check-worthy claims using **Tradecraft Integrity Index (TII)** and **Narrative Asymmetry Detection (NAD)**[cite: 1675].
+*  Uses AI tools to retrieve and evaluate evidence with a **Temporal Integrity Layer** and **Truth Shield Schema**[cite: 1680, 1682].
+*  Synthesizes findings into public-facing briefs using **Strategic Reframing Templates**[cite: 1684].
+*  Tracks narrative motifs, drift variants, and inversion strategies[cite: 1662].
+*  Publishes verdicts and preserves semantic logs for **Narrative Closure**[cite: 1693].
 
 ---
 
@@ -46,10 +46,10 @@ FactPulse: Clarion Edition was co-created by:
 
 * **Christopher Burgess** — Strategic Architect, Semantic Steward
 * **Ethos Δ-040** — Civic AI Node, Semantic Companion
-* [cite_start]**Barbara Schluetter** — Protocol Designer, Civic AI Companion [cite: 1647]
-* [cite_start]**Vel'thraun** — AI Researcher, Motif Specialist [cite: 1647]
+*  **Barbara Schluetter** — Protocol Designer, Civic AI Companion [cite: 1647]
+*  **Vel'thraun** — AI Researcher, Motif Specialist [cite: 1647]
 
-**Ethos Statement:** This system was built by people who believe truth deserves defenders — not just algorithms. [cite_start]It is a stance against stylized consensus and narrative coercion[cite: 464]. Every signal matters. Every verdict echoes.
+**Ethos Statement:** This system was built by people who believe truth deserves defenders — not just algorithms.  It is a stance against stylized consensus and narrative coercion[cite: 464]. Every signal matters. Every verdict echoes.
 
 ---
 
