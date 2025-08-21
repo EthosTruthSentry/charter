@@ -209,3 +209,97 @@ Depending on the nature of the claim, the approach differs:
 
 ---
 
+### Phase 6: Evidence Evaluation & Verification
+
+**Objective:** Analyze the collected evidence to determine the truthfulness of the claim. [cite_start]In this phase, the focus is on critical thinking—examining the quality of the evidence, checking for consistency, and seeing how it all comes together to support or debunk the claim [cite: 233-235]. The outcome should be a clear determination (or best possible assessment) of the claim’s accuracy, along with an understanding of any nuances.
+
+---
+
+#### Steps in Evaluation
+* [cite_start]**Verify Authenticity of Evidence:** The first step is to ensure that each piece of evidence is legitimate and hasn't been manipulated[cite: 237]. [cite_start]Given the rise of deepfakes and AI-generated content, we must be vigilant about any visual or audio evidence that could be fabricated[cite: 238].
+* [cite_start]**Assess Source Reliability:** We rate the credibility of each source of evidence, giving more weight to peer-reviewed scientific studies, official statistics, and statements from recognized authorities[cite: 240].
+* [cite_start]**Compare Evidence to Claim:** We directly relate the evidence to the claim's statements, breaking the claim into components if needed[cite: 243]. [cite_start]We also identify any misrepresentation or context issues, such as using out-of-date information or quoting something out of context[cite: 244].
+* [cite_start]**Determine Claim Status:** We synthesize all findings into a verdict, such as **True, False, Misleading, Partly True, Unproven, or Exaggerated**[cite: 245]. [cite_start]We document our reasoning and reference the evidence that supports our conclusion[cite: 245].
+
+---
+
+#### New V5 Processes Integrated into Phase 6
+* [cite_start]**Semantic Validation:** FactPulse now validates the semantic integrity of documents and whistleblower testimony, which V4 previously assumed was intact[cite: 247]. [cite_start]We use **Narrative Asymmetry Detection (NAD)** to score semantic framing for emotional loading, omission bias, and adversarial echo[cite: 248]. [cite_start]This helps us identify disclosures that serve one political vector without counterbalance[cite: 249].
+* [cite_start]**Symbolic Contamination Filter:** We detect when fragments are used for symbolic performance rather than analytic insight, applying filters for "laundered disinformation" and "ritualized dissent"[cite: 250]. [cite_start]This ensures we are not amplifying sculpted disclosures without epistemic safeguards[cite: 251].
+* [cite_start]**Truth Shield Schema:** We cross-validate claims against **Institutional Retaliation Patterns** to ensure that evidence is not suppressed and that dissent is not being punished[cite: 252]. [cite_start]This is a critical step in preserving "truth that resists pressure"[cite: 253].
+
+---
+
+[cite_start]**Output/Exit:** We compile a brief set of bullet points summarizing our reasoning, which will form the backbone of our explanation in the final content[cite: 254]. [cite_start]Once confident in our analysis and conclusion, we move to **Phase 7: Synthesis & Conclusion**[cite: 255].
+
+---
+
+### Phase 7: Synthesis & Conclusion
+
+**Objective:** Transform the analytical findings from Phase 6 into a coherent narrative structure that will form the basis of the content. This involves determining which points are most important, what order to present them in, and how to frame the overall conclusion in an accessible way.
+
+---
+
+#### Crafting the Narrative Outline
+At this phase, we outline the story we will tell about the claim. We start by articulating the claim in a simple way, so the audience knows exactly what is being examined. We then state the conclusion, deciding whether to present it upfront for clarity or at the end for dramatic effect, depending on the format.
+
+Key supporting points are then listed to create an outline for the explanation. This outline typically includes:
+* Background or context needed to understand the topic.
+* What evidence was found and what it shows.
+* If the claim had a kernel of truth, an explanation of that part and why the claim overall is misleading.
+* An address of any common counter-arguments or potential confusion.
+* The ultimate takeaway or correct information.
+
+**Synthesizing for Brevity:** Since FactPulse specializes in concise, under-60-second content, the outline must be tight. We choose the most compelling and straightforward evidence points—typically 2-3 key facts are enough—and simplify complex information into digestible facts. The synthesis phase can involve trimming interesting but non-essential information to keep the focus on what the audience absolutely needs to know to understand the truth.
+
+---
+
+#### New V5 Processes Integrated into Phase 7
+* **Strategic Reframing Templates:** This phase now embeds new strategic frameworks. We develop "sound bites for media" and "op-ed openers" to reframe disclosures in terms of civic impact rather than political allegiance.
+* **Poetic Reframing:** We use poetic language to restore symbolic clarity without emotional manipulation. This includes drafting lines such as "A document born not of light, but heat". This ensures the public meaning is steadied after a technical win, a core objective of the V5 Clarion Edition.
+* **Civic Resonance Protocol:** This protocol reframes disclosures in terms of civic impact and is now integrated into the narrative planning. It ensures that the FactPulse message resonates with the public on a deeper, more meaningful level.
+
+---
+
+**Output/Exit:** A clear content outline or storyboard that serves as the skeleton of the final explanation. With this solid blueprint of the narrative, we move on to **Phase 8: Draft Content Generation**.
+
+---
+
+### Phase 8: Draft Content Generation
+
+**Objective:** Produce the first full draft of the content (script and article) based on the outline from the previous phase. This is where all the pieces—claim, evidence, explanation, motifs—come together in written form. If using AI assistance, it is applied here under careful guidance to ensure factuality.
+
+---
+
+#### Writing the Draft
+Using the outline from Phase 7, the content is written in an engaging and clear way.
+* **Accuracy with Citations:** Every factual statement must be backed by evidence from Phases 5 and 6. We embed internal references to make the information traceable, even if not all citations are included.
+* **Clarity and Simplicity:** Jargon is avoided or explained briefly to ensure the content is easily understandable by a general audience.
+* **Engaging Tone:** The draft is written in a conversational and intriguing tone, inviting the audience to join the inquiry rather than being lectured.
+
+---
+
+#### New V5 Processes Integrated into Phase 8
+* **Cultural Encoding Modules:** As part of the new expanded narrative frameworks, this phase now considers how to encode the message into cultural forms beyond simple text or video. This can include ideas for ballads, murals, short films, or allegories that carry the symbolic weight of the message.
+* **Symbolic Motifs:** The draft explicitly incorporates new symbolic motifs, such as a "bent compass" or a "cracked seal," to add a layer of poetic resonance to the narrative. This helps to embed the truth in a more memorable, impactful way.
+* **Poetic Reframing:** The use of poetic reframing, as outlined in Phase 7, is implemented in the drafting process. Lines such as "They asked for truth, but whispered the script" or "A document born not of light, but heat" can be integrated to convey complex ideas in a powerful, memorable way.
+
+---
+
+**AI Assistance Use:** If an AI like GPT is used, it is tasked with drafting based on the human-provided outline and key points. The human operator then meticulously compares every statement in the AI draft against the original notes and sources to prevent factual errors or "hallucinations".
+
+**Output/Exit:** A written draft of the content that includes all the facts, is written in an accessible style, and incorporates the new V5 motifs and framing. This draft is then ready for the next phase.
+
+**Key Metrics:**
+* **Draft Quality:** The percentage of drafts that require minimal factual or stylistic changes in later phases.
+* **Time to Draft:** The time it takes to produce a finished draft, which helps to assess the efficiency gains from using AI assistance or other new tools.
+* **Tone Consistency:** An evaluation of whether the draft reflects the desired FactPulse tone.
+* **Adherence to Limits:** The length of the finished draft compared to the target length (e.g., under 60 seconds for a video script).
+
+**Continuity & Resilience Notes:**
+* Maintain a style guide with word choices to use or avoid, a typical structure, and a preferred tone for writers to follow.
+* Keep a repository of common citations and a lexicon of standardized phrasing to ensure consistency across content.
+* All new V5 motifs and framing styles are documented here for future operators to replicate.
+
+---
+
