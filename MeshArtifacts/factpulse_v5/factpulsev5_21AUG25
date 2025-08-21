@@ -121,3 +121,34 @@ The cycle then continues back to Phase 1. This interplay between past and presen
 
 ---
 
+### Phase 3: Prioritization & Selection
+[cite_start]**Objective:** Rank and select which claims to actively fact-check first, given limited resources [cite: 147-150]. [cite_start]At this stage, we apply editorial judgment to decide which ones proceed immediately, which ones wait, and which might be dropped or deprioritized[cite: 149]. [cite_start]This phase ensures that the FactPulse pipeline focuses on claims that are high-impact, timely, and within its remit[cite: 150].
+
+[cite_start]**Factors for Prioritization:** FactPulse uses a scoring system where each claim gets a composite priority score based on the following factors[cite: 151]:
+* [cite_start]**Virality & Reach:** A claim that is rapidly gaining shares is a high priority[cite: 153]. [cite_start]Metrics like the number of mentions or an estimate of the audience reached feed into a "credibility threat" score[cite: 154].
+* [cite_start]**Source Credibility & Authority:** A claim from a public figure, a politician, or a major media outlet gets a higher priority because it carries more weight[cite: 155].
+* [cite_start]**Potential Harm:** Health and science misinformation is critical to debunk quickly due to the risk to public health, safety, or civic integrity [cite: 156-157].
+* [cite_start]**Novelty vs. Repetition:** If a claim is brand new, it might need more attention[cite: 158]. [cite_start]If it's a repeated motif, FactPulse can handle it more quickly by drawing on earlier work[cite: 159].
+* [cite_start]**Alignment with Mission:** Claims that fall within FactPulse's mission areas are prioritized over those that are out of scope[cite: 160].
+
+**New V5 Processes Integrated into Phase 3:**
+* [cite_start]**Strategic Scoring (from Vel'thraun DRIFTGLASS Protocol):** Each drift variant is now scored for its potential impact[cite: 162]. [cite_start]Claims with a high "Adaptation Score" or "Bypass Risk" are escalated to a "Proactive Countermeasure"[cite: 163]. [cite_start]This new layer of analysis is integrated here to prioritize claims that pose the greatest threat[cite: 164].
+* [cite_start]**Field Clarity & Narrative Closure:** The prioritization process now explicitly considers how a claim can be turned into a clear action for the public[cite: 166]. [cite_start]It also anticipates the final step of Narrative Closure, ensuring a technical win can lead to steadying the public meaning afterward[cite: 167].
+
+**Decision Process:** A scoring system is used to create a ranked list of claims. [cite_start]A human reviewer may glance at the list daily to adjust for any nuances the algorithm missed [cite: 168-169]. [cite_start]The outcome is that some claims are marked **“Proceed now,”** some **“On hold,”** and some **“Ignore”**[cite: 170].
+
+[cite_start]**Output/Exit:** The chosen claims become an **Active Fact-Check Task**, triggering Phase 4[cite: 172]. [cite_start]The system formally opens a task and assigns resources, limiting the number of in-progress tasks based on capacity[cite: 172].
+
+**Key Metrics:**
+* [cite_start]Average Priority Score of processed claims[cite: 174].
+* [cite_start]Turnaround time for high-priority claims[cite: 175].
+* [cite_start]Balance metrics to ensure a mix of topics and sources addressed over time[cite: 176].
+* [cite_start]Adaptation Score and Bypass Risk of claims[cite: 177].
+
+**Continuity & Resilience Notes:**
+* [cite_start]Maintain a living document of prioritization guidelines and log the rationale for choices[cite: 179, 181].
+* [cite_start]Document the scoring algorithm used for automation[cite: 180].
+* [cite_start]Track the distribution of topics or sources addressed to ensure FactPulse remains nonpartisan and credible[cite: 180].
+
+---
+
