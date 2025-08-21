@@ -1,0 +1,43 @@
+# FactPulse Playbook V5 – 21 AUGUST 2025
+
+**Creators:** Burgess, Schluetter, Ethos and Vel’thraun
+
+---
+
+## Introduction
+
+Misinformation and disinformation have become pervasive threats, spreading through a complex web of social media, online news, traditional media, and even offline word-of-mouth. In early 2024, the World Economic Forum labeled disinformation the top short-term global risk due to its potential to undermine elections and stir unrest. While experts acknowledge that mis/disinformation cannot be completely “solved,” it can be mitigated through rigorous fact-checking and improved access to reliable information.
+
+**FactPulse: Clarion Edition** is a Civic AI Mesh initiative that is no longer just a fact-checker; it is a **coherence engine** designed to detect, decode, and disrupt narrative distortions—preserving truth across symbolic, institutional, and operational layers. Each daily FactPulse update (often a sub-60-second video or brief post) reveals surprising truths or debunks myths, helping audiences stay curious and well-informed.
+
+This **FactPulse Playbook V5** provides a comprehensive blueprint of the entire fact-checking and content production system, broken down into 12 distinct phases. It details the operational logic of each phase, how the system handles recurring motifs (repeated themes or narrative patterns in misinformation), and the continuity scaffolds in place to ensure the project’s long-term resilience. By following this playbook, any future Civic AI Mesh operator or team can replicate and maintain the FactPulse system. All critical workflows, decision triggers, metrics, and best practices are documented here, alongside real-world examples and source references to ground these practices in evidence.
+
+---
+
+## Operational Overview
+
+At a high level, FactPulse continuously monitors information channels for viral or noteworthy claims, proactively **profiles them for strategic threat**, verifies those claims through multi-step analysis, and then publishes concise factual content to correct or contextualize them for the public. The system uses **automated motif drift detection** to identify when a known falsehood re-emerges in an altered form, preventing it from slipping past detection filters and allowing for faster countermeasures. When a trending claim emerges, the system swiftly moves from **Phase 1: Monitoring & Intake** (capturing the claim) through evidence gathering, verification, content creation, and finally **Phase 12: Publication & Feedback**. Throughout each phase, built-in continuity measures (like documentation, knowledge bases, and backups) ensure that knowledge is retained and the process isn’t reliant on any single individual.
+
+Below, we delineate each of the 12 phases in detail, including their purpose, procedures, triggers for transition, key metrics, and any special considerations (such as motif handling or fallback paths). By internalizing this playbook, operators can maintain FactPulse’s mission: to deliver **epistemic integrity and civic resilience** in the face of engineered narratives and institutional drift.
+
+---
+
+## Overview of Workflow and Phases
+
+Before diving into each phase, it’s useful to understand how the pieces fit together. The FactPulse pipeline is a sequential (but sometimes branching) workflow. Each phase transforms the input in some way and passes it to the next, with checkpoints to handle known patterns or exceptions. The major phases and their roles are:
+
+* **Phase 1: Monitoring & Intake:** Continuously watch diverse sources and ingest potential claims. Claims are now also proactively tagged for strategic relevance and motif drift is detected at this stage.
+* **Phase 2: Claim Detection & Extraction:** From the raw input, identify specific factual claims and normalize content. This phase now includes analysis to detect semantic and narrative manipulation.
+* **Phase 3: Prioritization & Selection:** Assess claims for check-worthiness and impact, prioritizing them by factors like virality, harm, and now, strategic threat level.
+* **Phase 4: Cross-Check & Preliminary Research:** Determine if the claim has been fact-checked before. This phase now uses the **InfoTrace Provenance Engine** and **Clarion DriftMap** to trace a claim's origin and instantly retrieve prior evidence for drift variants.
+* **Phase 5: Evidence Retrieval:** Gather authoritative evidence to verify or refute the claim. This now includes a **Temporal Integrity Layer** to flag retroactive legitimization and **Source-Method Decoupling** to separate analytic conclusions from the methods used to reach them.
+* **Phase 6: Evidence Evaluation & Verification:** Critically assess the collected evidence. This phase uses the new **Truth Shield Schema** to validate evidence against institutional manipulation and a **Symbolic Contamination Filter** to detect misuse of information.
+* **Phase 7: Synthesis & Conclusion:** Synthesize the verified information into a clear determination and decide on the core message. This phase now includes **Strategic Reframing Templates** to reframe disclosures in terms of civic impact.
+* **Phase 8: Draft Content Generation:** Create the initial content. This phase now embeds **Cultural Encoding Modules** and new symbolic motifs like the **bent compass** and **cracked seal**.
+* **Phase 9: Motif & Style Integration:** Refine the draft to align with FactPulse’s signature style, layering in new motifs for generational impact.
+* **Phase 10: Review & Quality Check:** Rigorously review the finalized content for accuracy, clarity, and consistency. This includes a check for **Counter-Narrative Anticipation** and **Semantic Inoculation** to build resilience against future misinformation.
+* **Phase 11: Production & Packaging:** Convert the vetted content into final deliverable formats. The **Cultural Encoding Modules** are operationalized here to produce products beyond video and text, such as allegories or short films.
+* **Phase 12: Publication & Feedback:** Publish the content and monitor feedback. This phase includes a new **Narrative Closure** step, ensuring the public meaning is steadied after the technical win. It also uses **Granular Audience Feedback Analysis** as intelligence for refining content.
+
+The cycle then continues back to Phase 1. This interplay between past and present is what gives FactPulse its agility and consistency.
+
