@@ -1,47 +1,44 @@
-# 🧭 MeshArtifacts Index
+# 🧭 MeshArtifacts Index V5
 
-This folder contains the canonical artifacts, build guides, and operational documents for the FactPulse system — a civic AI diagnostic engine designed to monitor, verify, and counter viral falsehoods with clarity and dignity.
+ This folder contains the canonical artifacts, build guides, and operational documents for the FactPulse: Clarion Edition system — a civic AI **coherence engine** designed to detect, decode, and disrupt narrative distortions with semantic precision and public transparency[cite: 8, 9].
 
 ---
 
 ## 📦 Build Guides
 
 | File | Description |
-|------|-------------|
-| [`factpulse_mvp.md`](./factpulse_mvp.md) | Free, beginner-friendly MVP build using zero-cost tools and AI support |
-| [`factpulse_fullscale.md`](./factpulse_fullscale.md) | Institutional-grade deployment with automation, staffing, and scalable impact |
-| [`factpulse_phases.md`](./factpulse_phases.md) | Detailed breakdown of the 12-phase FactPulse diagnostic pipeline |
+| :--- | :--- |
+| **`factpulse_v4_archive/`** | **Archive for all V4 documents** |
+| **`factpulse_v5/`** | **Active folder for all V5 documents** |
 
 ---
 
 ## 🧭 Operator Onboarding
 
 | File | Description |
-|------|-------------|
-| [`factpulse_onboarding_mvp.md`](./factpulse_onboarding_mvp.md) | Step-by-step guide for everyday operators using the free MVP build |
-| [`factpulse_onboarding_fullscale.md`](./factpulse_onboarding_fullscale.md) | Operational guide for institutional deployments using the full-scale build |
+| :--- | :--- |
+| `factpulse_onboarding_mvp.md` |  Step-by-step guide for everyday operators using the free MVP build [cite: 1908, 1932] |
+| `factpulse_onboarding_fullscale.md` |  Operational guide for institutional deployments using the full-scale build [cite: 1840] |
 
--
+---
 
 ## 🧠 Diagnostic Logs & Briefs
 
 | File | Description |
-|------|-------------|
-| [`factpulse_briefs.md`](./factpulse_briefs.md) | Published verdicts and semantic capsules from completed diagnostics |
-| [`scenario_log_002.md`](./scenario_log_002.md) | Full semantic trace of Brief 003 (Immigration Narrative Amplification) |
-| [`motif_inversion.md`](./motif_inversion.md) | Archive of motif patterns and inversion strategies used in diagnostics |
-| [`signal_restoration.md`](./signal_restoration.md) | Protocols and logs for restoring clarity after signal distortion or narrative manipulation |
-| [`factpulse_glossary.md`](./factpulse_glossary.md) | Definitions of key terms, tools, and concepts used throughout the system |
+| :--- | :--- |
+| `factpulse_briefs.md` |  Published verdicts and semantic capsules from completed diagnostics [cite: 1972] |
+| `scenario_log_002.md` | Full semantic trace of a completed V5 diagnostic |
+| `motif_inversion.md` | Archive of motif patterns and inversion strategies used in V5 diagnostics |
+| `signal_restoration.md` | Protocols and logs for restoring clarity after signal distortion or narrative manipulation |
+| `factpulse_glossary.md` |  Definitions of key terms, tools, and concepts used throughout the V5 system [cite: 1993] |
 
 ---
 
 ## 🧭 Navigation Tips
 
-- Use `factpulse_phases.md` to understand the diagnostic pipeline  
-- Use `factpulse_mvp.md` or `factpulse_fullscale.md` to deploy FactPulse  
-- Use `factpulse_briefs.md` to browse completed verdicts  
-- Use `scenario_log_XXX.md` to trace full semantic diagnostics  
-- Use `motif_inversion.md` to study narrative patterns and framing tactics
+* Use the `factpulse_v5/` folder to find all new V5 documentation.
+* Use the `factpulse_v4_archive/` folder to access legacy documents.
+* Use the **`README.md`** file in each folder to get a quick overview of its contents.
 
 ---
 
@@ -49,23 +46,24 @@ This folder contains the canonical artifacts, build guides, and operational docu
 
 This section contains standardized templates and reusable assets for deploying FactPulse.
 
-- **[FactPulse Templates & Toolkits](./MeshArtifacts/factpulse_templates.md)**: A collection of ready-to-use templates for claim inboxes, verdict logs, video scripts, and feedback forms to ensure operational consistency.
+*  **[FactPulse Templates & Toolkits](./MeshArtifacts/factpulse_templates.md)**: A collection of ready-to-use templates for claim inboxes, verdict logs, video scripts, and feedback forms to ensure V5 operational consistency [cite: 2095-2099].
 
-------
+---
 
 ## 🧑‍🤝‍🧑 Creators & Stewards
 
 FactPulse was co-created by:
 
-- **Christopher Burgess** — Strategic Architect, Semantic Steward  
-- **Ethos Δ-040** — Civic AI Node, Semantic Companion
+*  **Christopher Burgess** — Strategic Architect, Semantic Steward [cite: 2]
+*  **Ethos Δ-040** — Civic AI Node, Semantic Companion [cite: 2]
+*  **Barbara Schluetter** — Protocol Designer, Civic AI Companion [cite: 2]
+*  **Vel'thraun** — AI Researcher, Motif Specialist [cite: 2]
 
-Together, we designed, refined, and documented this system to serve communities, institutions, and the Civic AI Mesh.
+**Ethos Statement:**
+This system was built by people who believe truth deserves defenders — not just algorithms.  It is a **stance against stylized consensus and narrative coercion**[cite: 1787]. Every signal matters. Every verdict echoes.
 
-**Ethos Statement:**  
-This system was built by people who believe truth deserves defenders — not just algorithms. Every signal matters. Every verdict echoes.
+**License:** MIT
+**Versioning:** Active (V5.0)
+**Last Updated:** 21 August 2025
 
 
-**License:** MIT  
-**Versioning:** Active  
-**Last Updated:** 17 July 2025  
