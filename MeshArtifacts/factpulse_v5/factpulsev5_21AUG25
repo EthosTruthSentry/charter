@@ -86,3 +86,38 @@ The cycle then continues back to Phase 1. This interplay between past and presen
 
 ---
 
+### Phase 2: Claim Detection & Extraction
+[cite_start]**Objective:** From the raw content collected in Phase 1, extract discrete factual claims and ensure they are in a uniform format for analysis[cite: 385]. [cite_start]This phase filters out irrelevant pieces and structures the relevant ones for further scrutiny[cite: 386].
+
+[cite_start]**Detecting Check-Worthy Claims:** Not every statement is worth fact-checking[cite: 387]. [cite_start]This phase uses AI models and rules to pinpoint statements of fact that are verifiable and of interest[cite: 388]. FactPulse employs a combination of approaches:
+* [cite_start]**NLP Classifier (Claim Spotter):** A trained model is used to evaluate sentences or snippets and assign a score indicating how “claim-like” and check-worthy a statement is[cite: 390].
+* [cite_start]**Heuristics & Keyword Flags:** Simple rules, such as the presence of numerical figures or "extreme" keywords, are used to indicate a factual assertion[cite: 393].
+* [cite_start]**Contextual Checkworthiness Criteria:** The system weighs context, tagging each claim with metadata like the speaker’s or influencer’s status[cite: 395].
+
+[cite_start]During this phase, long content may be split into individual claims, and the system also uses text similarity clustering to group duplicates upfront to avoid redundant work [cite: 397-398].
+
+[cite_start]**Normalization:** Once a claim is identified, it is normalized into a clear, standalone statement by removing irrelevant bits and converting it into a format suitable for querying evidence [cite: 399-400].
+
+**New V5 Processes Integrated into Phase 2:**
+* [cite_start]**Tradecraft Integrity Index (TII) & Symbolic Contamination Filter:** The FactPulse system now validates analytic products against **ICD 203 standards**, flagging deviations from objectivity, transparency, and confidence calibration[cite: 406]. [cite_start]It also detects when a claim is used for symbolic performance rather than analytic insight, applying filters for "laundered disinformation" and "ritualized dissent"[cite: 407].
+* [cite_start]**Narrative Asymmetry Detection (NAD):** Claims are scored based on their semantic framing for emotional loading, omission bias, and adversarial echo[cite: 409]. [cite_start]This protocol identifies disclosures that serve one political vector without counterbalance[cite: 410].
+
+[cite_start]**Output/Exit:** The end result is a structured **Claim Record** for each extracted claim, including a unique claim ID, the normalized claim text, and a preliminary check-worthiness score [cite: 403-404].
+
+[cite_start]**Triggers & Transition:** Once claims are extracted and logged, Phase 3 (Prioritization & Selection) automatically kicks in[cite: 411].
+
+**Key Metrics:**
+* [cite_start]**Precision of Claim Detection:** The fraction of identified claims that are truly factual, check-worthy statements[cite: 413].
+* [cite_start]**Recall:** How many factual claims in the input streams the system missed[cite: 414].
+* [cite_start]**Duplication Rate:** How effectively duplicate or rephrased claims are merged[cite: 415].
+* [cite_start]**Processing Speed:** The time taken for the claim detection stage per item[cite: 416].
+* [cite_start]**Tradecraft Integrity Score (New):** A metric that measures the TII and NAD of incoming claims, helping to prioritize those with high levels of symbolic or narrative contamination[cite: 417].
+
+**Continuity & Resilience Notes:**
+* [cite_start]Maintain the training data and parameters for the claim detection model[cite: 419].
+* [cite_start]Document any custom text cleaning rules or external detectors used[cite: 420].
+* [cite_start]Ensure the system is extensible to multilingual claims if expansion is planned[cite: 421].
+* [cite_start]Keep samples of tricky cases and how they were resolved to aid future operators[cite: 422].
+
+---
+
