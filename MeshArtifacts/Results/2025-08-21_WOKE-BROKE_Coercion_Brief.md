@@ -8,7 +8,7 @@ This file is a public-facing brief for the FactPulse diagnostic on The White Hou
 - **Diagnostic ID:** S-FP-20250821-WH-001
 - **Date:** 21 August 2025
 - **Topic:** A political claim linking a social belief system to financial hardship.
-- **Published Link:** (To be published on civic platform)
+- **Published Link:** https://qweditions.com/factpulse-diagnostic-brief-woke-broke/
 
 ## Claim
 A tweet from The White House with the text "WOKE = BROKE" and an image of a tombstone with the text "WOKE is DEAD." The claim implicitly suggests that a set of social or political beliefs is directly causing financial hardship.
