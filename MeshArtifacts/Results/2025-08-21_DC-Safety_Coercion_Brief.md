@@ -2,7 +2,7 @@
 **Diagnostic ID:** S-FP-20250821-JDV-001  
 **Date:** 21 August 2025  
 **Topic:** An implicit public safety claim in a political tweet.  
-**Published Link:** (To be published on civic platform)
+**Published Link:**  https://qweditions.com/factpulse-diagnostic-make-dc-safe-again/
 
 ## Claim
 A tweet from Vice President JD Vance with the text "Make DC Safe Again 🇺🇸" accompanied by a black and white image of him walking with a security detail through a government building. The claim implicitly suggests that Washington, D.C., is unsafe and that the speaker is taking action to address it.
