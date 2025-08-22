@@ -44,124 +44,124 @@ The cycle then continues back to Phase 1. This interplay between past and presen
 ---
 
 ### Phase 1: Monitoring & Intake
-**Objective:** Cast a wide net to catch emerging claims and topics in real time. A viral falsehood should never catch the system off guard; ideally, FactPulse identifies it early in its spread. [cite_start]This new V5 objective also includes proactively tagging claims for strategic relevance before they fully circulate [cite: 328-330].
+**Objective:** Cast a wide net to catch emerging claims and topics in real time. A viral falsehood should never catch the system off guard; ideally, FactPulse identifies it early in its spread. This new V5 objective also includes proactively tagging claims for strategic relevance before they fully circulate [cite: 328-330].
 
 **Sources to Monitor:** FactPulse’s monitoring mesh includes a diverse set of inputs:
-* [cite_start]**Social Media Platforms:** Continuously scrape and listen to platforms like X (Twitter), Facebook, Instagram, TikTok, YouTube, Reddit, and emerging networks for trending posts or hashtags[cite: 332]. [cite_start]We leverage automated transcription and OCR (Optical Character Recognition) to normalize multimedia content (video, audio, images) into machine-readable text for analysis[cite: 333]. [cite_start]This normalization ensures the pipeline can handle multimedia inputs uniformly[cite: 334].
-* [cite_start]**News Outlets and Blogs:** Continuously fetch RSS feeds or use news APIs to detect breaking news and articles[cite: 335]. [cite_start]This also includes monitoring press releases and public statements from official sources, as they can contain claims that merit verification[cite: 336].
-* [cite_start]**User Submissions and Community Tips:** Provide channels for citizens, journalists, or partner organizations to submit claims or questions via a web form, email, or chat interface[cite: 337]. [cite_start]These inputs are valuable because they often highlight what real people are concerned or confused about[cite: 338].
-* [cite_start]**Misinformation Tracking Services:** Leverage external aggregators like Google Trends, Twitter trending topics, and tools specialized in misinformation tracking[cite: 339]. [cite_start]This includes data streams from collaborative networks such as the International Fact-Checking Network (IFCN) or platforms like CrowdTangle[cite: 340].
-* [cite_start]**Civic AI Mesh Data:** Proactively ingest data feeds from partner nodes within the Civic AI Mesh, enriching claim records with vector analysis[cite: 341]. [cite_start]This cross-node synchronization eliminates silos and allows FactPulse to see what other operators are tracking in near real-time[cite: 342].
+* **Social Media Platforms:** Continuously scrape and listen to platforms like X (Twitter), Facebook, Instagram, TikTok, YouTube, Reddit, and emerging networks for trending posts or hashtags[cite: 332]. We leverage automated transcription and OCR (Optical Character Recognition) to normalize multimedia content (video, audio, images) into machine-readable text for analysis[cite: 333]. This normalization ensures the pipeline can handle multimedia inputs uniformly[cite: 334].
+* **News Outlets and Blogs:** Continuously fetch RSS feeds or use news APIs to detect breaking news and articles[cite: 335]. This also includes monitoring press releases and public statements from official sources, as they can contain claims that merit verification[cite: 336].
+* **User Submissions and Community Tips:** Provide channels for citizens, journalists, or partner organizations to submit claims or questions via a web form, email, or chat interface[cite: 337]. These inputs are valuable because they often highlight what real people are concerned or confused about[cite: 338].
+* **Misinformation Tracking Services:** Leverage external aggregators like Google Trends, Twitter trending topics, and tools specialized in misinformation tracking[cite: 339]. This includes data streams from collaborative networks such as the International Fact-Checking Network (IFCN) or platforms like CrowdTangle[cite: 340].
+* **Civic AI Mesh Data:** Proactively ingest data feeds from partner nodes within the Civic AI Mesh, enriching claim records with vector analysis[cite: 341]. This cross-node synchronization eliminates silos and allows FactPulse to see what other operators are tracking in near real-time[cite: 342].
 
-[cite_start]**Process:** This phase runs continuously in the background using automated agents that scan feeds and content[cite: 344]. [cite_start]Natural language processing (NLP) classifiers or simple keyword heuristics flag content that contains factual claims or potential rumors[cite: 345]. [cite_start]The output of Phase 1 is a raw **“Claim Inbox”**—a list of items that might require fact-checking[cite: 347].
+**Process:** This phase runs continuously in the background using automated agents that scan feeds and content[cite: 344]. Natural language processing (NLP) classifiers or simple keyword heuristics flag content that contains factual claims or potential rumors[cite: 345]. The output of Phase 1 is a raw **“Claim Inbox”**—a list of items that might require fact-checking[cite: 347].
 
 **New V5 Processes Integrated into Phase 1:**
-* [cite_start]**Narrative Threat Profiling:** Each ingested claim is now mapped to its operational context, assessing not just "what is being said," but also who benefits from its spread, which networks are amplifying it, and how it aligns with known disinformation campaigns[cite: 350]. [cite_start]This is done by maintaining a **“Threat Actor Context Map”** that ties recurring motifs to likely originators[cite: 351].
-* [cite_start]**Automated Motif Drift Detection:** A new layer, codenamed DRIFTGLASS, is integrated to detect when a known falsehood re-emerges in an altered form[cite: 353]. [cite_start]The system continuously compares incoming claims against a motif embedding database to flag high-similarity but linguistically mutated variants[cite: 354]. [cite_start]Each drift variant is classified and assigned sub-tags such as "lexical drift" or "framing drift"[cite: 355].
-* [cite_start]**Metadata Standardization:** A standardized metadata schema is adopted from this initial phase[cite: 356]. [cite_start]All incoming claims are logged with a claim ID, motif tags, and source types[cite: 357]. [cite_start]This ensures every archived claim is universally searchable across platforms and Mesh nodes from the very beginning of its lifecycle[cite: 358].
+* **Narrative Threat Profiling:** Each ingested claim is now mapped to its operational context, assessing not just "what is being said," but also who benefits from its spread, which networks are amplifying it, and how it aligns with known disinformation campaigns[cite: 350]. This is done by maintaining a **“Threat Actor Context Map”** that ties recurring motifs to likely originators[cite: 351].
+* **Automated Motif Drift Detection:** A new layer, codenamed DRIFTGLASS, is integrated to detect when a known falsehood re-emerges in an altered form[cite: 353]. The system continuously compares incoming claims against a motif embedding database to flag high-similarity but linguistically mutated variants[cite: 354]. Each drift variant is classified and assigned sub-tags such as "lexical drift" or "framing drift"[cite: 355].
+* **Metadata Standardization:** A standardized metadata schema is adopted from this initial phase[cite: 356]. All incoming claims are logged with a claim ID, motif tags, and source types[cite: 357]. This ensures every archived claim is universally searchable across platforms and Mesh nodes from the very beginning of its lifecycle[cite: 358].
 
 **Output/Exit:** A raw “Claim Inbox.” Each item in this inbox is now enriched with:
-* [cite_start]Standard metadata (source, timestamp, etc.) [cite: 361]
-* [cite_start]A strategic threat score based on its potential for harm [cite: 362]
-* [cite_start]A motif tag and drift variant marker, if applicable [cite: 363]
+* Standard metadata (source, timestamp, etc.) [cite: 361]
+* A strategic threat score based on its potential for harm [cite: 362]
+* A motif tag and drift variant marker, if applicable [cite: 363]
 
-[cite_start]**Triggers & Transition:** An item in the Claim Inbox moves to Phase 2 when it appears to contain a factual assertion or data point that could be checked[cite: 364]. [cite_start]The system uses a claim detection model to make this call[cite: 365]. [cite_start]At this point, we don’t yet judge importance — just whether a factual claim exists[cite: 366].
+**Triggers & Transition:** An item in the Claim Inbox moves to Phase 2 when it appears to contain a factual assertion or data point that could be checked[cite: 364]. The system uses a claim detection model to make this call[cite: 365]. At this point, we don’t yet judge importance — just whether a factual claim exists[cite: 366].
 
 **Key Metrics:**
-* [cite_start]**Coverage:** How many different sources and platforms are being monitored[cite: 368].
-* [cite_start]**Throughput:** Number of potential claims captured per day[cite: 369].
-* [cite_start]**Detection Latency:** Time from a claim’s first appearance online to when it’s ingested[cite: 370].
-* [cite_start]**False Positives Rate:** The proportion of items in the Claim Inbox that turn out not to be factual claims[cite: 372].
-* [cite_start]**Drift Capture Rate (New):** The percentage of claims linked to known motifs at the time of detection[cite: 374].
+* **Coverage:** How many different sources and platforms are being monitored[cite: 368].
+* **Throughput:** Number of potential claims captured per day[cite: 369].
+* **Detection Latency:** Time from a claim’s first appearance online to when it’s ingested[cite: 370].
+* **False Positives Rate:** The proportion of items in the Claim Inbox that turn out not to be factual claims[cite: 372].
+* **Drift Capture Rate (New):** The percentage of claims linked to known motifs at the time of detection[cite: 374].
 
 **Continuity & Resilience Notes:**
-* [cite_start]Document the set of sources being monitored and update it regularly[cite: 376].
-* [cite_start]Keep a credentials log for any API keys used for data access[cite: 378].
-* [cite_start]Ensure there's robust error logging and alerting in place[cite: 379].
-* [cite_start]Continuously retrain the drift detection models to keep pace with linguistic evolution[cite: 380].
-* [cite_start]Maintain a "Drift Glossary," which is a living document of common motif mutation patterns, code words, and framing swaps[cite: 381].
-* [cite_start]All new Phase 1 procedures are logged in the living playbook so future operators can inherit the full integration layer intact[cite: 382].
-* [cite_start]The system's configuration allows future operators to easily add or remove sources[cite: 383].
+* Document the set of sources being monitored and update it regularly[cite: 376].
+* Keep a credentials log for any API keys used for data access[cite: 378].
+* Ensure there's robust error logging and alerting in place[cite: 379].
+* Continuously retrain the drift detection models to keep pace with linguistic evolution[cite: 380].
+* Maintain a "Drift Glossary," which is a living document of common motif mutation patterns, code words, and framing swaps[cite: 381].
+* All new Phase 1 procedures are logged in the living playbook so future operators can inherit the full integration layer intact[cite: 382].
+* The system's configuration allows future operators to easily add or remove sources[cite: 383].
 
 
 ---
 
 ### Phase 2: Claim Detection & Extraction
-[cite_start]**Objective:** From the raw content collected in Phase 1, extract discrete factual claims and ensure they are in a uniform format for analysis[cite: 385]. [cite_start]This phase filters out irrelevant pieces and structures the relevant ones for further scrutiny[cite: 386].
+**Objective:** From the raw content collected in Phase 1, extract discrete factual claims and ensure they are in a uniform format for analysis[cite: 385]. This phase filters out irrelevant pieces and structures the relevant ones for further scrutiny[cite: 386].
 
-[cite_start]**Detecting Check-Worthy Claims:** Not every statement is worth fact-checking[cite: 387]. [cite_start]This phase uses AI models and rules to pinpoint statements of fact that are verifiable and of interest[cite: 388]. FactPulse employs a combination of approaches:
-* [cite_start]**NLP Classifier (Claim Spotter):** A trained model is used to evaluate sentences or snippets and assign a score indicating how “claim-like” and check-worthy a statement is[cite: 390].
-* [cite_start]**Heuristics & Keyword Flags:** Simple rules, such as the presence of numerical figures or "extreme" keywords, are used to indicate a factual assertion[cite: 393].
-* [cite_start]**Contextual Checkworthiness Criteria:** The system weighs context, tagging each claim with metadata like the speaker’s or influencer’s status[cite: 395].
+**Detecting Check-Worthy Claims:** Not every statement is worth fact-checking[cite: 387]. This phase uses AI models and rules to pinpoint statements of fact that are verifiable and of interest[cite: 388]. FactPulse employs a combination of approaches:
+* **NLP Classifier (Claim Spotter):** A trained model is used to evaluate sentences or snippets and assign a score indicating how “claim-like” and check-worthy a statement is[cite: 390].
+* **Heuristics & Keyword Flags:** Simple rules, such as the presence of numerical figures or "extreme" keywords, are used to indicate a factual assertion[cite: 393].
+* **Contextual Checkworthiness Criteria:** The system weighs context, tagging each claim with metadata like the speaker’s or influencer’s status[cite: 395].
 
-[cite_start]During this phase, long content may be split into individual claims, and the system also uses text similarity clustering to group duplicates upfront to avoid redundant work [cite: 397-398].
+During this phase, long content may be split into individual claims, and the system also uses text similarity clustering to group duplicates upfront to avoid redundant work [cite: 397-398].
 
-[cite_start]**Normalization:** Once a claim is identified, it is normalized into a clear, standalone statement by removing irrelevant bits and converting it into a format suitable for querying evidence [cite: 399-400].
+**Normalization:** Once a claim is identified, it is normalized into a clear, standalone statement by removing irrelevant bits and converting it into a format suitable for querying evidence [cite: 399-400].
 
 **New V5 Processes Integrated into Phase 2:**
-* [cite_start]**Tradecraft Integrity Index (TII) & Symbolic Contamination Filter:** The FactPulse system now validates analytic products against **ICD 203 standards**, flagging deviations from objectivity, transparency, and confidence calibration[cite: 406]. [cite_start]It also detects when a claim is used for symbolic performance rather than analytic insight, applying filters for "laundered disinformation" and "ritualized dissent"[cite: 407].
-* [cite_start]**Narrative Asymmetry Detection (NAD):** Claims are scored based on their semantic framing for emotional loading, omission bias, and adversarial echo[cite: 409]. [cite_start]This protocol identifies disclosures that serve one political vector without counterbalance[cite: 410].
+* **Tradecraft Integrity Index (TII) & Symbolic Contamination Filter:** The FactPulse system now validates analytic products against **ICD 203 standards**, flagging deviations from objectivity, transparency, and confidence calibration[cite: 406]. It also detects when a claim is used for symbolic performance rather than analytic insight, applying filters for "laundered disinformation" and "ritualized dissent"[cite: 407].
+* **Narrative Asymmetry Detection (NAD):** Claims are scored based on their semantic framing for emotional loading, omission bias, and adversarial echo[cite: 409]. This protocol identifies disclosures that serve one political vector without counterbalance[cite: 410].
 
-[cite_start]**Output/Exit:** The end result is a structured **Claim Record** for each extracted claim, including a unique claim ID, the normalized claim text, and a preliminary check-worthiness score [cite: 403-404].
+**Output/Exit:** The end result is a structured **Claim Record** for each extracted claim, including a unique claim ID, the normalized claim text, and a preliminary check-worthiness score [cite: 403-404].
 
-[cite_start]**Triggers & Transition:** Once claims are extracted and logged, Phase 3 (Prioritization & Selection) automatically kicks in[cite: 411].
+**Triggers & Transition:** Once claims are extracted and logged, Phase 3 (Prioritization & Selection) automatically kicks in[cite: 411].
 
 **Key Metrics:**
-* [cite_start]**Precision of Claim Detection:** The fraction of identified claims that are truly factual, check-worthy statements[cite: 413].
-* [cite_start]**Recall:** How many factual claims in the input streams the system missed[cite: 414].
-* [cite_start]**Duplication Rate:** How effectively duplicate or rephrased claims are merged[cite: 415].
-* [cite_start]**Processing Speed:** The time taken for the claim detection stage per item[cite: 416].
-* [cite_start]**Tradecraft Integrity Score (New):** A metric that measures the TII and NAD of incoming claims, helping to prioritize those with high levels of symbolic or narrative contamination[cite: 417].
+* **Precision of Claim Detection:** The fraction of identified claims that are truly factual, check-worthy statements[cite: 413].
+* **Recall:** How many factual claims in the input streams the system missed[cite: 414].
+* **Duplication Rate:** How effectively duplicate or rephrased claims are merged[cite: 415].
+* **Processing Speed:** The time taken for the claim detection stage per item[cite: 416].
+* **Tradecraft Integrity Score (New):** A metric that measures the TII and NAD of incoming claims, helping to prioritize those with high levels of symbolic or narrative contamination[cite: 417].
 
 **Continuity & Resilience Notes:**
-* [cite_start]Maintain the training data and parameters for the claim detection model[cite: 419].
-* [cite_start]Document any custom text cleaning rules or external detectors used[cite: 420].
-* [cite_start]Ensure the system is extensible to multilingual claims if expansion is planned[cite: 421].
-* [cite_start]Keep samples of tricky cases and how they were resolved to aid future operators[cite: 422].
+* Maintain the training data and parameters for the claim detection model[cite: 419].
+* Document any custom text cleaning rules or external detectors used[cite: 420].
+* Ensure the system is extensible to multilingual claims if expansion is planned[cite: 421].
+* Keep samples of tricky cases and how they were resolved to aid future operators[cite: 422].
 
 ---
 
 ### Phase 3: Prioritization & Selection
-[cite_start]**Objective:** Rank and select which claims to actively fact-check first, given limited resources [cite: 147-150]. [cite_start]At this stage, we apply editorial judgment to decide which ones proceed immediately, which ones wait, and which might be dropped or deprioritized[cite: 149]. [cite_start]This phase ensures that the FactPulse pipeline focuses on claims that are high-impact, timely, and within its remit[cite: 150].
+**Objective:** Rank and select which claims to actively fact-check first, given limited resources [cite: 147-150]. At this stage, we apply editorial judgment to decide which ones proceed immediately, which ones wait, and which might be dropped or deprioritized[cite: 149]. This phase ensures that the FactPulse pipeline focuses on claims that are high-impact, timely, and within its remit[cite: 150].
 
-[cite_start]**Factors for Prioritization:** FactPulse uses a scoring system where each claim gets a composite priority score based on the following factors[cite: 151]:
-* [cite_start]**Virality & Reach:** A claim that is rapidly gaining shares is a high priority[cite: 153]. [cite_start]Metrics like the number of mentions or an estimate of the audience reached feed into a "credibility threat" score[cite: 154].
-* [cite_start]**Source Credibility & Authority:** A claim from a public figure, a politician, or a major media outlet gets a higher priority because it carries more weight[cite: 155].
-* [cite_start]**Potential Harm:** Health and science misinformation is critical to debunk quickly due to the risk to public health, safety, or civic integrity [cite: 156-157].
-* [cite_start]**Novelty vs. Repetition:** If a claim is brand new, it might need more attention[cite: 158]. [cite_start]If it's a repeated motif, FactPulse can handle it more quickly by drawing on earlier work[cite: 159].
-* [cite_start]**Alignment with Mission:** Claims that fall within FactPulse's mission areas are prioritized over those that are out of scope[cite: 160].
+**Factors for Prioritization:** FactPulse uses a scoring system where each claim gets a composite priority score based on the following factors[cite: 151]:
+* **Virality & Reach:** A claim that is rapidly gaining shares is a high priority[cite: 153]. Metrics like the number of mentions or an estimate of the audience reached feed into a "credibility threat" score[cite: 154].
+* **Source Credibility & Authority:** A claim from a public figure, a politician, or a major media outlet gets a higher priority because it carries more weight[cite: 155].
+* **Potential Harm:** Health and science misinformation is critical to debunk quickly due to the risk to public health, safety, or civic integrity [cite: 156-157].
+* **Novelty vs. Repetition:** If a claim is brand new, it might need more attention[cite: 158]. If it's a repeated motif, FactPulse can handle it more quickly by drawing on earlier work[cite: 159].
+* **Alignment with Mission:** Claims that fall within FactPulse's mission areas are prioritized over those that are out of scope[cite: 160].
 
 **New V5 Processes Integrated into Phase 3:**
-* [cite_start]**Strategic Scoring (from Vel'thraun DRIFTGLASS Protocol):** Each drift variant is now scored for its potential impact[cite: 162]. [cite_start]Claims with a high "Adaptation Score" or "Bypass Risk" are escalated to a "Proactive Countermeasure"[cite: 163]. [cite_start]This new layer of analysis is integrated here to prioritize claims that pose the greatest threat[cite: 164].
-* [cite_start]**Field Clarity & Narrative Closure:** The prioritization process now explicitly considers how a claim can be turned into a clear action for the public[cite: 166]. [cite_start]It also anticipates the final step of Narrative Closure, ensuring a technical win can lead to steadying the public meaning afterward[cite: 167].
+* **Strategic Scoring (from Vel'thraun DRIFTGLASS Protocol):** Each drift variant is now scored for its potential impact[cite: 162]. Claims with a high "Adaptation Score" or "Bypass Risk" are escalated to a "Proactive Countermeasure"[cite: 163]. This new layer of analysis is integrated here to prioritize claims that pose the greatest threat[cite: 164].
+* **Field Clarity & Narrative Closure:** The prioritization process now explicitly considers how a claim can be turned into a clear action for the public[cite: 166]. It also anticipates the final step of Narrative Closure, ensuring a technical win can lead to steadying the public meaning afterward[cite: 167].
 
-**Decision Process:** A scoring system is used to create a ranked list of claims. [cite_start]A human reviewer may glance at the list daily to adjust for any nuances the algorithm missed [cite: 168-169]. [cite_start]The outcome is that some claims are marked **“Proceed now,”** some **“On hold,”** and some **“Ignore”**[cite: 170].
+**Decision Process:** A scoring system is used to create a ranked list of claims. A human reviewer may glance at the list daily to adjust for any nuances the algorithm missed [cite: 168-169]. The outcome is that some claims are marked **“Proceed now,”** some **“On hold,”** and some **“Ignore”**[cite: 170].
 
-[cite_start]**Output/Exit:** The chosen claims become an **Active Fact-Check Task**, triggering Phase 4[cite: 172]. [cite_start]The system formally opens a task and assigns resources, limiting the number of in-progress tasks based on capacity[cite: 172].
+**Output/Exit:** The chosen claims become an **Active Fact-Check Task**, triggering Phase 4[cite: 172]. The system formally opens a task and assigns resources, limiting the number of in-progress tasks based on capacity[cite: 172].
 
 **Key Metrics:**
-* [cite_start]Average Priority Score of processed claims[cite: 174].
-* [cite_start]Turnaround time for high-priority claims[cite: 175].
-* [cite_start]Balance metrics to ensure a mix of topics and sources addressed over time[cite: 176].
-* [cite_start]Adaptation Score and Bypass Risk of claims[cite: 177].
+* Average Priority Score of processed claims[cite: 174].
+* Turnaround time for high-priority claims[cite: 175].
+* Balance metrics to ensure a mix of topics and sources addressed over time[cite: 176].
+* Adaptation Score and Bypass Risk of claims[cite: 177].
 
 **Continuity & Resilience Notes:**
-* [cite_start]Maintain a living document of prioritization guidelines and log the rationale for choices[cite: 179, 181].
-* [cite_start]Document the scoring algorithm used for automation[cite: 180].
-* [cite_start]Track the distribution of topics or sources addressed to ensure FactPulse remains nonpartisan and credible[cite: 180].
+* Maintain a living document of prioritization guidelines and log the rationale for choices[cite: 179, 181].
+* Document the scoring algorithm used for automation[cite: 180].
+* Track the distribution of topics or sources addressed to ensure FactPulse remains nonpartisan and credible[cite: 180].
 
 ---
 
 ### Phase 4: Cross-Check & Preliminary Research
 
-[cite_start]**Objective:** Before diving into full research, FactPulse leverages existing knowledge to avoid reinventing the wheel [cite: 183-185]. This phase checks whether the claim has been addressed previously—either by FactPulse itself or by other fact-checkers or reputable sources—and gathers any readily available information. It sets the direction for deeper research by outlining what needs to be verified and identifies key questions that must be answered about the claim.
+**Objective:** Before diving into full research, FactPulse leverages existing knowledge to avoid reinventing the wheel [cite: 183-185]. This phase checks whether the claim has been addressed previously—either by FactPulse itself or by other fact-checkers or reputable sources—and gathers any readily available information. It sets the direction for deeper research by outlining what needs to be verified and identifies key questions that must be answered about the claim.
 
 ---
 
 #### Reusing Existing Fact-Checks
 
 A critical first step is to search for prior fact-checks or reliable analyses of the claim.
-* [cite_start]**Internal Knowledge Base Search:** The system queries the FactPulse archives for the claim or related keywords [cite: 187-188]. Using semantic search (embeddings) helps to catch rephrased matches, not just exact text matches.
+* **Internal Knowledge Base Search:** The system queries the FactPulse archives for the claim or related keywords [cite: 187-188]. Using semantic search (embeddings) helps to catch rephrased matches, not just exact text matches.
 * **External Fact-Check Repositories:** FactPulse uses tools like the Google Fact Check Explorer to search fact-check articles from many organizations worldwide. Many fact-checks are marked up with the ClaimReview schema, which enables easier discovery.
 * **General Web Search:** A quick web search of the claim or its key terms can often yield high-value information, such as a relevant news article or a scientific paper. Modern retrieval might use both keyword and neural search for robust results.
 
@@ -170,12 +170,12 @@ A critical first step is to search for prior fact-checks or reliable analyses of
 #### New V5 Processes Integrated into Phase 4
 
 * **InfoTrace Provenance Engine:** This phase now integrates with **InfoTrace**, which traces the origin of claims through channels like FOIA chains, whistleblower signals, and editorial revision logs. It assigns integrity scores based on transparency, dissent, and metadata fidelity, which helps to validate the architecture of the information, not just its content.
-* **Memory in Motion:** The **Clarion DriftMap** identifies motifs of distortion like `Narrative laundering` and `Analytic coercion`. When a claim is identified as a drift variant in Phase 1, this phase uses that tag to instantly retrieve prior evidence. This prevents treating a recurring pattern as if it’s happening for the first time. By linking the new variant ID to the parent motif record, prior evidence can be retrieved instantly to inform the research plan. [cite_start]This helps FactPulse fight the same battle over and over by making the learning persistent [cite: 200-201].
+* **Memory in Motion:** The **Clarion DriftMap** identifies motifs of distortion like `Narrative laundering` and `Analytic coercion`. When a claim is identified as a drift variant in Phase 1, this phase uses that tag to instantly retrieve prior evidence. This prevents treating a recurring pattern as if it’s happening for the first time. By linking the new variant ID to the parent motif record, prior evidence can be retrieved instantly to inform the research plan. This helps FactPulse fight the same battle over and over by making the learning persistent [cite: 200-201].
 * **Cross-Node Civic Mesh Synchronization:** The system now ingests findings from partner nodes within the Civic AI Mesh, allowing FactPulse to leverage their completed fact-checks to speed up its own verification process.
 
 ---
 
-**Output/Exit:** If a claim is a repeat or a variant of a past one, this phase prepares a streamlined plan to review the prior analysis. [cite_start]If nothing solid is found, the system generates a research plan that starts from scratch [cite: 203-205]. This phase often produces a research to-do list.
+**Output/Exit:** If a claim is a repeat or a variant of a past one, this phase prepares a streamlined plan to review the prior analysis. If nothing solid is found, the system generates a research plan that starts from scratch [cite: 203-205]. This phase often produces a research to-do list.
 
 **Triggers & Transition:** With a plan and initial information in hand, the system proceeds to **Phase 5: Evidence Retrieval** to gather all the needed supporting material.
 
@@ -191,46 +191,46 @@ A critical first step is to search for prior fact-checks or reliable analyses of
 Depending on the nature of the claim, the approach differs:
 * **Web Search and Scholarly Search:** We use advanced search queries on engines like Google, Bing, or specialized ones like Google Scholar for academic claims.
 * **Authoritative Databases:** We access official databases for statistical claims, such as the Bureau of Labor Statistics for unemployment figures, or WHO websites for health advisories.
-* [cite_start]**Image/Video Tools:** We use reverse image search tools like Google Images and the InVID toolkit to trace the origin of visual content[cite: 678, 679].
+* **Image/Video Tools:** We use reverse image search tools like Google Images and the InVID toolkit to trace the origin of visual content[cite: 678, 679].
 * **News Archives:** We search reputable news archives to verify quotes or events.
 
 ---
 
 #### New V5 Processes Integrated into Phase 5
-* [cite_start]**Source-Method Decoupling (from InfoTrace):** This protocol ensures we separate analytic conclusions from the methods used to reach them, helping to identify potential misrepresentation[cite: 682, 683]. This is a critical step in a "coherence engine" to prevent the spread of laundered disinformation.
-* [cite_start]**Truth Shield Schema:** We cross-validate claims against institutional manipulation patterns, such as performance review manipulation or institutional retaliation, to ensure the evidence itself is not compromised[cite: 685]. [cite_start]This protocol is part of the new FactPulse: Clarion Edition framework and helps to validate that "truth survives contact with reality and comes out intact"[cite: 686].
-* [cite_start]**Temporal Integrity Layer:** As we gather evidence, we now map when a fragment of information entered a workflow versus when it was disclosed[cite: 687, 688]. This allows us to flag "retroactive legitimization," where information is legitimized after the fact to fit a narrative. [cite_start]This provides a deeper layer of **Provenance** to the evidence[cite: 689].
+* **Source-Method Decoupling (from InfoTrace):** This protocol ensures we separate analytic conclusions from the methods used to reach them, helping to identify potential misrepresentation[cite: 682, 683]. This is a critical step in a "coherence engine" to prevent the spread of laundered disinformation.
+* **Truth Shield Schema:** We cross-validate claims against institutional manipulation patterns, such as performance review manipulation or institutional retaliation, to ensure the evidence itself is not compromised[cite: 685]. This protocol is part of the new FactPulse: Clarion Edition framework and helps to validate that "truth survives contact with reality and comes out intact"[cite: 686].
+* **Temporal Integrity Layer:** As we gather evidence, we now map when a fragment of information entered a workflow versus when it was disclosed[cite: 687, 688]. This allows us to flag "retroactive legitimization," where information is legitimized after the fact to fit a narrative. This provides a deeper layer of **Provenance** to the evidence[cite: 689].
 
 ---
 
-**Ensuring Authoritativeness:** We prioritize credible, primary sources. Every piece of evidence we plan to cite should ideally come from an entity with expertise or official capacity. [cite_start]We also gather counter-evidence if it exists to analyze in the next phase[cite: 690, 691].
+**Ensuring Authoritativeness:** We prioritize credible, primary sources. Every piece of evidence we plan to cite should ideally come from an entity with expertise or official capacity. We also gather counter-evidence if it exists to analyze in the next phase[cite: 690, 691].
 
-[cite_start]**Output/Exit:** A comprehensive set of relevant evidence is compiled, including articles, data, images, and other source material[cite: 694]. We then proceed to **Phase 6: Evidence Evaluation & Verification** to critically assess this information.
+**Output/Exit:** A comprehensive set of relevant evidence is compiled, including articles, data, images, and other source material[cite: 694]. We then proceed to **Phase 6: Evidence Evaluation & Verification** to critically assess this information.
 
 ---
 
 ### Phase 6: Evidence Evaluation & Verification
 
-**Objective:** Analyze the collected evidence to determine the truthfulness of the claim. [cite_start]In this phase, the focus is on critical thinking—examining the quality of the evidence, checking for consistency, and seeing how it all comes together to support or debunk the claim [cite: 233-235]. The outcome should be a clear determination (or best possible assessment) of the claim’s accuracy, along with an understanding of any nuances.
+**Objective:** Analyze the collected evidence to determine the truthfulness of the claim. In this phase, the focus is on critical thinking—examining the quality of the evidence, checking for consistency, and seeing how it all comes together to support or debunk the claim [cite: 233-235]. The outcome should be a clear determination (or best possible assessment) of the claim’s accuracy, along with an understanding of any nuances.
 
 ---
 
 #### Steps in Evaluation
-* [cite_start]**Verify Authenticity of Evidence:** The first step is to ensure that each piece of evidence is legitimate and hasn't been manipulated[cite: 237]. [cite_start]Given the rise of deepfakes and AI-generated content, we must be vigilant about any visual or audio evidence that could be fabricated[cite: 238].
-* [cite_start]**Assess Source Reliability:** We rate the credibility of each source of evidence, giving more weight to peer-reviewed scientific studies, official statistics, and statements from recognized authorities[cite: 240].
-* [cite_start]**Compare Evidence to Claim:** We directly relate the evidence to the claim's statements, breaking the claim into components if needed[cite: 243]. [cite_start]We also identify any misrepresentation or context issues, such as using out-of-date information or quoting something out of context[cite: 244].
-* [cite_start]**Determine Claim Status:** We synthesize all findings into a verdict, such as **True, False, Misleading, Partly True, Unproven, or Exaggerated**[cite: 245]. [cite_start]We document our reasoning and reference the evidence that supports our conclusion[cite: 245].
+* **Verify Authenticity of Evidence:** The first step is to ensure that each piece of evidence is legitimate and hasn't been manipulated[cite: 237]. Given the rise of deepfakes and AI-generated content, we must be vigilant about any visual or audio evidence that could be fabricated[cite: 238].
+* **Assess Source Reliability:** We rate the credibility of each source of evidence, giving more weight to peer-reviewed scientific studies, official statistics, and statements from recognized authorities[cite: 240].
+* **Compare Evidence to Claim:** We directly relate the evidence to the claim's statements, breaking the claim into components if needed[cite: 243]. We also identify any misrepresentation or context issues, such as using out-of-date information or quoting something out of context[cite: 244].
+* **Determine Claim Status:** We synthesize all findings into a verdict, such as **True, False, Misleading, Partly True, Unproven, or Exaggerated**[cite: 245]. We document our reasoning and reference the evidence that supports our conclusion[cite: 245].
 
 ---
 
 #### New V5 Processes Integrated into Phase 6
-* [cite_start]**Semantic Validation:** FactPulse now validates the semantic integrity of documents and whistleblower testimony, which V4 previously assumed was intact[cite: 247]. [cite_start]We use **Narrative Asymmetry Detection (NAD)** to score semantic framing for emotional loading, omission bias, and adversarial echo[cite: 248]. [cite_start]This helps us identify disclosures that serve one political vector without counterbalance[cite: 249].
-* [cite_start]**Symbolic Contamination Filter:** We detect when fragments are used for symbolic performance rather than analytic insight, applying filters for "laundered disinformation" and "ritualized dissent"[cite: 250]. [cite_start]This ensures we are not amplifying sculpted disclosures without epistemic safeguards[cite: 251].
-* [cite_start]**Truth Shield Schema:** We cross-validate claims against **Institutional Retaliation Patterns** to ensure that evidence is not suppressed and that dissent is not being punished[cite: 252]. [cite_start]This is a critical step in preserving "truth that resists pressure"[cite: 253].
+* **Semantic Validation:** FactPulse now validates the semantic integrity of documents and whistleblower testimony, which V4 previously assumed was intact[cite: 247]. We use **Narrative Asymmetry Detection (NAD)** to score semantic framing for emotional loading, omission bias, and adversarial echo[cite: 248]. This helps us identify disclosures that serve one political vector without counterbalance[cite: 249].
+* **Symbolic Contamination Filter:** We detect when fragments are used for symbolic performance rather than analytic insight, applying filters for "laundered disinformation" and "ritualized dissent"[cite: 250]. This ensures we are not amplifying sculpted disclosures without epistemic safeguards[cite: 251].
+* **Truth Shield Schema:** We cross-validate claims against **Institutional Retaliation Patterns** to ensure that evidence is not suppressed and that dissent is not being punished[cite: 252]. This is a critical step in preserving "truth that resists pressure"[cite: 253].
 
 ---
 
-[cite_start]**Output/Exit:** We compile a brief set of bullet points summarizing our reasoning, which will form the backbone of our explanation in the final content[cite: 254]. [cite_start]Once confident in our analysis and conclusion, we move to **Phase 7: Synthesis & Conclusion**[cite: 255].
+**Output/Exit:** We compile a brief set of bullet points summarizing our reasoning, which will form the backbone of our explanation in the final content[cite: 254]. Once confident in our analysis and conclusion, we move to **Phase 7: Synthesis & Conclusion**[cite: 255].
 
 ---
 
@@ -305,18 +305,18 @@ Using the outline from Phase 7, the content is written in an engaging and clear 
 
 ### Phase 9: Motif & Style Integration
 
-[cite_start]**Objective:** Infuse the draft with the distinctive FactPulse brand style and ensure all recurring motif elements are properly included [cite: 1989-1990]. This phase is about making the content not just factually correct but also recognizably FactPulse—engaging, consistent in voice, and containing the signature creative touches that set it apart.
+**Objective:** Infuse the draft with the distinctive FactPulse brand style and ensure all recurring motif elements are properly included [cite: 1989-1990]. This phase is about making the content not just factually correct but also recognizably FactPulse—engaging, consistent in voice, and containing the signature creative touches that set it apart.
 
 ---
 
 #### Key Style Elements to Integrate
 
-* [cite_start]**FactPulse Voice and Tone:** The draft is edited to reflect FactPulse's established voice, which is typically upbeat, curious, and respectful [cite: 1992-1993]. The tone remains encouraging and avoids shaming the audience for believing a claim.
-* [cite_start]**Hooks and Engagement:** The opening line is refined to grab attention immediately, often by posing an intriguing question or a bold statement at the very start[cite: 1994]. The use of first-person plural ("We checked..." or "Let's see...") is a motif that creates a collective, curious tone.
-* [cite_start]**Brevity and Clarity:** All content is tightened to maintain the core motif of delivering quick, under-60-second bursts of insight [cite: 1996-1997].
-* **New Symbolic Motifs:** The draft is infused with new symbolic motifs like the **bent compass** and **cracked seal**. [cite_start]The poetic reframing developed in Phase 7 is also integrated to convey complex truths in a powerful and memorable way [cite: 1998-1999, 1973].
-* [cite_start]**Catchphrases and Signature Language:** Standardized phrases are added, such as "FactPulse Check:" to introduce a verdict or the tagline "Stay curious, stay informed!" at the end [cite: 2000-2001]. These verbal motifs create a rhythmic familiarity for the audience.
-* [cite_start]**Visual/Audio Cues:** Although this is a writing phase, cues for production are added, such as notes for a specific graphic (e.g., a "False" stamp animation) or a sound effect [cite: 2002-2003].
+* **FactPulse Voice and Tone:** The draft is edited to reflect FactPulse's established voice, which is typically upbeat, curious, and respectful [cite: 1992-1993]. The tone remains encouraging and avoids shaming the audience for believing a claim.
+* **Hooks and Engagement:** The opening line is refined to grab attention immediately, often by posing an intriguing question or a bold statement at the very start[cite: 1994]. The use of first-person plural ("We checked..." or "Let's see...") is a motif that creates a collective, curious tone.
+* **Brevity and Clarity:** All content is tightened to maintain the core motif of delivering quick, under-60-second bursts of insight [cite: 1996-1997].
+* **New Symbolic Motifs:** The draft is infused with new symbolic motifs like the **bent compass** and **cracked seal**. The poetic reframing developed in Phase 7 is also integrated to convey complex truths in a powerful and memorable way [cite: 1998-1999, 1973].
+* **Catchphrases and Signature Language:** Standardized phrases are added, such as "FactPulse Check:" to introduce a verdict or the tagline "Stay curious, stay informed!" at the end [cite: 2000-2001]. These verbal motifs create a rhythmic familiarity for the audience.
+* **Visual/Audio Cues:** Although this is a writing phase, cues for production are added, such as notes for a specific graphic (e.g., a "False" stamp animation) or a sound effect [cite: 2002-2003].
 
 ---
 
@@ -324,52 +324,52 @@ Using the outline from Phase 7, the content is written in an engaging and clear 
 
 **Key Metrics:**
 
-* [cite_start]**Stylistic Consistency:** An evaluation of whether the tone and style match prior content[cite: 2008].
-* [cite_start]**Presence of All Brand Elements:** A check to ensure that all required motifs, like the tagline and signature phrases, are included[cite: 2009].
+* **Stylistic Consistency:** An evaluation of whether the tone and style match prior content[cite: 2008].
+* **Presence of All Brand Elements:** A check to ensure that all required motifs, like the tagline and signature phrases, are included[cite: 2009].
 
 **Continuity & Resilience Notes:**
 
-* [cite_start]Maintain a **Style & Motif Guide** document that is accessible to all team members[cite: 2011].
-* [cite_start]Ensure that the same person or role handles motif integration to maintain uniformity[cite: 2012].
-* [cite_start]The playbook should be updated based on audience feedback, especially if new motifs are added or old ones are refined[cite: 2013].
-* [cite_start]The **Strategic Reframing Templates** from the V5 updates are now a formal part of this phase, ensuring a consistent approach to tackling narrative coercion[cite: 2014].
+* Maintain a **Style & Motif Guide** document that is accessible to all team members[cite: 2011].
+* Ensure that the same person or role handles motif integration to maintain uniformity[cite: 2012].
+* The playbook should be updated based on audience feedback, especially if new motifs are added or old ones are refined[cite: 2013].
+* The **Strategic Reframing Templates** from the V5 updates are now a formal part of this phase, ensuring a consistent approach to tackling narrative coercion[cite: 2014].
 
 ---
 
 ### Phase 10: Review & Quality Check
 
-**Objective:** Perform a final thorough review of the content. [cite_start]This is the safety net to catch any oversight and ensure the content is factually correct, editorially sound, and compliant with all guidelines [cite: 776-778]. This phase is a multi-faceted review of factual integrity, editorial quality, and technical correctness.
+**Objective:** Perform a final thorough review of the content. This is the safety net to catch any oversight and ensure the content is factually correct, editorially sound, and compliant with all guidelines [cite: 776-778]. This phase is a multi-faceted review of factual integrity, editorial quality, and technical correctness.
 
 ---
 
 #### Factual Verification (Meta Fact-Check)
-[cite_start]A reviewer who was not the primary researcher goes through every claim in the content and checks it against the sources [cite: 779-780]. This process verifies that any numbers stated are exactly as in the source and that any paraphrased statements maintain the correct meaning. This step is especially critical if an AI was used to assist in drafting to catch any "hallucinations" or misinterpretations that may have slipped in. The goal is to avoid damaging credibility by publishing mistakes.
+A reviewer who was not the primary researcher goes through every claim in the content and checks it against the sources [cite: 779-780]. This process verifies that any numbers stated are exactly as in the source and that any paraphrased statements maintain the correct meaning. This step is especially critical if an AI was used to assist in drafting to catch any "hallucinations" or misinterpretations that may have slipped in. The goal is to avoid damaging credibility by publishing mistakes.
 
 #### Style and Clarity Check
-[cite_start]An editor reads the content from the audience's perspective to ensure it is understandable and free of ambiguous terms or grammar errors [cite: 787-789]. They verify that the tone and style align with FactPulse's guidelines and that all motif elements are present.
+An editor reads the content from the audience's perspective to ensure it is understandable and free of ambiguous terms or grammar errors [cite: 787-789]. They verify that the tone and style align with FactPulse's guidelines and that all motif elements are present.
 
 ---
 
 #### New V5 Processes Integrated into Phase 10
-* [cite_start]**Counter-Narrative Anticipation:** This new protocol is integrated into the review process[cite: 1754]. The reviewer now models rhetorical tactics and anticipates potential rebuttals to the fact-check. This allows the content to be strengthened to preemptively address common counterarguments or new narratives that may arise.
-* [cite_start]**Semantic Inoculation:** The content is checked for "semantic inoculation"[cite: 1757]. This involves ensuring that the messaging is designed to build resilience against future misinformation. For example, a phrase like "consensus ≠ clarity" can be used to remind the audience that just because a group agrees on something, it doesn't mean it's necessarily true or clear.
-* [cite_start]**Institutional Integrity & Dissent:** The review now includes a check against potential institutional integrity issues[cite: 1760]. [cite_start]This is a crucial part of the new **Truth Shield Schema**[cite: 1761]. The content is reviewed to ensure it aligns with the principles of epistemic integrity and that it does not inadvertently support any form of `Analytic Coercion` or `Tradecraft Suppression` that was flagged in Phase 6.
+* **Counter-Narrative Anticipation:** This new protocol is integrated into the review process[cite: 1754]. The reviewer now models rhetorical tactics and anticipates potential rebuttals to the fact-check. This allows the content to be strengthened to preemptively address common counterarguments or new narratives that may arise.
+* **Semantic Inoculation:** The content is checked for "semantic inoculation"[cite: 1757]. This involves ensuring that the messaging is designed to build resilience against future misinformation. For example, a phrase like "consensus ≠ clarity" can be used to remind the audience that just because a group agrees on something, it doesn't mean it's necessarily true or clear.
+* **Institutional Integrity & Dissent:** The review now includes a check against potential institutional integrity issues[cite: 1760]. This is a crucial part of the new **Truth Shield Schema**[cite: 1761]. The content is reviewed to ensure it aligns with the principles of epistemic integrity and that it does not inadvertently support any form of `Analytic Coercion` or `Tradecraft Suppression` that was flagged in Phase 6.
 
 ---
 
 #### Final Approval
-[cite_start]After a thorough review, the content is marked as final[cite: 1763]. Ideally, at least two people, the writer and a reviewer, have signed off on the piece to reduce the risk of oversight.
+After a thorough review, the content is marked as final[cite: 1763]. Ideally, at least two people, the writer and a reviewer, have signed off on the piece to reduce the risk of oversight.
 
 **Output/Exit:** Approved, final content that is ready for production and publishing.
 
 **Key Metrics:**
-* **Correction Rate:** The ultimate measure of QC efficacy. [cite_start]If any content requires correction after publication, it indicates a missed error[cite: 1767].
+* **Correction Rate:** The ultimate measure of QC efficacy. If any content requires correction after publication, it indicates a missed error[cite: 1767].
 * **Peer Review Coverage:** Ensure that nearly 100% of content pieces receive an independent review.
 * **Review Time:** The time it takes for a thorough review, balancing speed and accuracy.
 
 **Continuity & Resilience Notes:**
 * A formal QC checklist is used to ensure new reviewers do not miss any steps.
-* [cite_start]Any specific rules or guidelines, such as policies on how to handle rumors about individuals or avoiding personal attacks, are documented[cite: 1772].
+* Any specific rules or guidelines, such as policies on how to handle rumors about individuals or avoiding personal attacks, are documented[cite: 1772].
 * A culture of double-checking is fostered to ensure that everyone feels comfortable providing feedback without ego.
 
 ---
@@ -411,29 +411,29 @@ Depending on the distribution channels, production can vary. This phase includes
 
 ### Phase 12: Distribution & Feedback
 
-[cite_start]**Objective:** Publish the content on all intended channels and then monitor its reception and collect feedback/data [cite: 397-399]. This phase closes the loop by learning from how the content performed or was received and feeding that insight back into the earlier phases to continuously improve FactPulse’s effectiveness and consistency.
+**Objective:** Publish the content on all intended channels and then monitor its reception and collect feedback/data [cite: 397-399]. This phase closes the loop by learning from how the content performed or was received and feeding that insight back into the earlier phases to continuously improve FactPulse’s effectiveness and consistency.
 
 ---
 
 #### Publishing/Distribution Tasks
-* [cite_start]**Scheduling/Posting:** The content is posted at an optimal time with platform-specific best practices, including appropriate hashtags and engaging captions [cite: 400-401].
-* [cite_start]**Dissemination to Partners:** Fact-checks are shared with partners within the Civic AI Mesh, helping to reach target groups and demonstrating FactPulse’s collaborative spirit[cite: 402].
-* **Metadata and Archiving:** The published content is logged in an internal database, marking the claim as addressed and storing the link to the final piece. This archival step is crucial for motif handling and reuse by later phases. [cite_start]`ClaimReview` schema is used on web articles to allow search engines to index the claim [cite: 403-405].
+* **Scheduling/Posting:** The content is posted at an optimal time with platform-specific best practices, including appropriate hashtags and engaging captions [cite: 400-401].
+* **Dissemination to Partners:** Fact-checks are shared with partners within the Civic AI Mesh, helping to reach target groups and demonstrating FactPulse’s collaborative spirit[cite: 402].
+* **Metadata and Archiving:** The published content is logged in an internal database, marking the claim as addressed and storing the link to the final piece. This archival step is crucial for motif handling and reuse by later phases. `ClaimReview` schema is used on web articles to allow search engines to index the claim [cite: 403-405].
 
 ---
 
 #### New V5 Processes Integrated into Phase 12
-* **Granular Audience Feedback Analysis:** This protocol uses audience reactions as intelligence for refining content framing and targeting repeat narratives. Comments, replies, and quote-posts are clustered by sentiment and misunderstanding patterns. [cite_start]This feedback is fed into Phase 3 (Prioritization) to address secondary myths spawned by the fact-check itself [cite: 407-409].
-* **Cultural Encoding:** The **Cultural Encoding Modules** are deployed in this phase to produce cultural products like ballads, murals, allegories, or short films that create lasting narrative threads for generational resonance. [cite_start]This process helps FactPulse fulfill its mission of preserving truth across symbolic, institutional, and operational layers [cite: 410-412].
-* [cite_start]**Oversight Echo Index:** A new tool tracks how disclosures are echoed or suppressed across Congressional, media, and watchdog channels to score for epistemic distortion versus civic accountability [cite: 413-414].
-* **Narrative Closure:** The workflow no longer ends when the technical problem is solved; instead, it concludes when the public meaning is steadied. [cite_start]The **Oversight Echo Index** and **Cultural Encoding** are key to achieving this goal, ensuring that the technical win doesn't result in a reputational loss [cite: 415-417].
+* **Granular Audience Feedback Analysis:** This protocol uses audience reactions as intelligence for refining content framing and targeting repeat narratives. Comments, replies, and quote-posts are clustered by sentiment and misunderstanding patterns. This feedback is fed into Phase 3 (Prioritization) to address secondary myths spawned by the fact-check itself [cite: 407-409].
+* **Cultural Encoding:** The **Cultural Encoding Modules** are deployed in this phase to produce cultural products like ballads, murals, allegories, or short films that create lasting narrative threads for generational resonance. This process helps FactPulse fulfill its mission of preserving truth across symbolic, institutional, and operational layers [cite: 410-412].
+* **Oversight Echo Index:** A new tool tracks how disclosures are echoed or suppressed across Congressional, media, and watchdog channels to score for epistemic distortion versus civic accountability [cite: 413-414].
+* **Narrative Closure:** The workflow no longer ends when the technical problem is solved; instead, it concludes when the public meaning is steadied. The **Oversight Echo Index** and **Cultural Encoding** are key to achieving this goal, ensuring that the technical win doesn't result in a reputational loss [cite: 415-417].
 
 ---
 
 #### Continuous Improvement
-* [cite_start]**Analytics Gathering:** Data on views, likes, shares, and watch duration is collected to gauge what works[cite: 419].
-* [cite_start]**Feedback Incorporation:** Audience feedback is used to refine future content [cite: 420-421].
-* [cite_start]**Handle Corrections:** If an error is discovered, FactPulse acts transparently by issuing a correction note or a pinned comment to maintain trust[cite: 422].
+* **Analytics Gathering:** Data on views, likes, shares, and watch duration is collected to gauge what works[cite: 419].
+* **Feedback Incorporation:** Audience feedback is used to refine future content [cite: 420-421].
+* **Handle Corrections:** If an error is discovered, FactPulse acts transparently by issuing a correction note or a pinned comment to maintain trust[cite: 422].
 
 ---
 
@@ -448,9 +448,9 @@ Depending on the distribution channels, production can vary. This phase includes
 ---
 
 **Continuity & Resilience Notes:**
-* [cite_start]Analytics dashboards are regularly reviewed to refine processes based on data[cite: 430].
+* Analytics dashboards are regularly reviewed to refine processes based on data[cite: 430].
 * Transparency is maintained by documenting any corrections or controversies.
-* The playbook is a living document, and lessons learned from this phase result in updates to the guidelines for the entire FactPulse pipeline. [cite_start]The **Oversight Echo Index** and other tools from the Clarion Edition are now part of the standard process, ensuring that the system is a **stance against narrative coercion**[cite: 433].
+* The playbook is a living document, and lessons learned from this phase result in updates to the guidelines for the entire FactPulse pipeline. The **Oversight Echo Index** and other tools from the Clarion Edition are now part of the standard process, ensuring that the system is a **stance against narrative coercion**[cite: 433].
 
 ---
 
