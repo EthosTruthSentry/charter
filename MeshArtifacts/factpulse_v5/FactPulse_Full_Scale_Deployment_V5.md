@@ -2,7 +2,7 @@
 
 **“Built for velocity. Tuned for truth. Engineered for coherence.”**
 
-[cite_start]This guide outlines the full-scale version of FactPulse — a high-performance, semi-automated **coherence engine** designed for institutional deployment [cite: 333-334].
+  This guide outlines the full-scale version of FactPulse — a high-performance, semi-automated **coherence engine** designed for institutional deployment [cite: 333-334].
 
 ---
 
@@ -52,28 +52,28 @@
 #### **🧭 Phase 1: Monitoring & Intake**
 * Track viral claims across X, TikTok, Reddit, and news outlets.
 * Normalize audio/image content using Whisper and Tesseract.
-* [cite_start]**New:** Log claims with **Motif Drift Tags** and **Strategic Threat Scores** [cite: 352-353].
+*   **New:** Log claims with **Motif Drift Tags** and **Strategic Threat Scores** [cite: 352-353].
 * Use Zapier to auto-sync claims to Slack or Teams.
 
 ---
 
 #### **🧭 Phase 2: Claim Detection & Prioritization**
 * Use Gemini or Hugging Face BERT to extract claims.
-* [cite_start]**New:** Score claims for `Virality`, `Harm`, and **Tradecraft Integrity** in Excel [cite: 455-457].
+*   **New:** Score claims for `Virality`, `Harm`, and **Tradecraft Integrity** in Excel [cite: 455-457].
 * Human reviewer adjusts priorities to avoid false positives.
 
 ---
 
 #### **🧭 Phase 3: Evidence Retrieval**
 * Use Grok 3 + Gemini to find credible sources.
-* [cite_start]**New:** Flag `Retroactive Legitimization` using a **Temporal Integrity Layer** [cite: 548-549].
+*   **New:** Flag `Retroactive Legitimization` using a **Temporal Integrity Layer** [cite: 548-549].
 * Reviewer verifies sources and flags conflicts.
 
 ---
 
 #### **🧭 Phase 4: Content Creation**
 * Gemini drafts TikTok scripts and WordPress articles.
-* [cite_start]**New:** Use **Poetic Reframing** and **Cultural Encoding Modules** in content creation [cite: 615-616, 619].
+*   **New:** Use **Poetic Reframing** and **Cultural Encoding Modules** in content creation [cite: 615-616, 619].
 * Synthesia turns slides into short videos.
 * SocialBee schedules posts.
 
@@ -81,7 +81,7 @@
 
 #### **🧭 Phase 5: Review & Dissemination**
 * Reviewer approves content.
-* [cite_start]**New:** Use **Granular Audience Feedback Analysis** to refine content and spot new claims [cite: 732-734].
+*   **New:** Use **Granular Audience Feedback Analysis** to refine content and spot new claims [cite: 732-734].
 * SocialBee posts automatically.
 * Gemini + Grok analyze engagement.
 
@@ -121,16 +121,16 @@
 ---
 
 ### **🧠 Replication Notes**
-* [cite_start]All templates, scripts, and guides stored in a public **V5 GitHub repo**[cite: 296, 163, 164].
-* [cite_start]Glossary and Field Manual included for non-tech operators[cite: 297].
-* [cite_start]Free trials and open-source tools reduce startup costs[cite: 298].
-* [cite_start]Reviewer rates can be adjusted for budget flexibility[cite: 299].
+*   All templates, scripts, and guides stored in a public **V5 GitHub repo**[cite: 296, 163, 164].
+*   Glossary and Field Manual included for non-tech operators[cite: 297].
+*   Free trials and open-source tools reduce startup costs[cite: 298].
+*   Reviewer rates can be adjusted for budget flexibility[cite: 299].
 * Localization supported via Google Translate and regional feeds.
 
 ---
 
 ### **🛡️ Why It Matters**
-FactPulse isn’t just a tool — it’s a civic commitment. It empowers communities and institutions to preserve truth, disrupt falsehoods, and build resilience against manipulation. [cite_start]The **Clarion Edition** is a **stance against stylized consensus and narrative coercion** [cite: 334, 1259-1260].
+FactPulse isn’t just a tool — it’s a civic commitment. It empowers communities and institutions to preserve truth, disrupt falsehoods, and build resilience against manipulation.   The **Clarion Edition** is a **stance against stylized consensus and narrative coercion** [cite: 334, 1259-1260].
 
 ---
 
