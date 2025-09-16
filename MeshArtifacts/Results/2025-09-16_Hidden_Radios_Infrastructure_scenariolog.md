@@ -4,6 +4,8 @@
 **Date: September 16, 2025, 11:07 AM EDT**  
 **Claim Source: [Reuters Article](https://www.reuters.com/legal/government/us-warns-hidden-radios-may-be-embedded-solar-powered-highway-infrastructure-2025-09-10/)**  
 **Creators: Burgess, Schluetter, Ethos, and Vel’thraun**
+---
+
 **Brief:  https://githug/EthosTruthSentry/charter/MeshArtifacts/Results/2025-09-16_HRI-Brief.md**
 
 This document outlines the FactPulse V5 pipeline execution (Phases 1–12) to fact-check the claim that undocumented cellular radios were found in foreign-manufactured solar inverters and battery management systems (BMS) used in U.S. highway infrastructure, with implications of a potential Chinese sabotage threat. The process follows the FactPulse Playbook V5, delivering a final content piece for public dissemination.
